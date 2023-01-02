@@ -1,0 +1,18 @@
+---
+title: "Final Projects"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+A gallery of the final visualization projects created by the class!
+
+* [A Decade of UFO Sightings](../projects/Barber_FinalUFO/), Chris Barber
+* [Hate Crime in the US, and a Closer Look at the State of Virginia](../projects/Owens_FinalProject/), Owayne Owens
+* [Wrangling Election Data: DC's Mayoral Primary](../projects/Bruce_FinalProject/), Charlie Bruce
+* [Data Exploration: Food Insecurity in Africa](../projects/PARKS_FinalProject/), Kaitlyn Parks
+* [COVID-19 Cases, Hospitalizations, and Deaths Across Race](../projects/williams_finalproject/), Jia Williams
+* [Visualizing Hate Crimes](../projects/Boccher_Final_Project/), Brandon Boccher
+* [Gender Pay Gaps](../projects/Binoy_project/), Amruta Binoy
