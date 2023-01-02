@@ -1,0 +1,71 @@
+baseURL: "https://datavis22.mclaibourn.org/"
+languageCode: en-us
+title: "Public Interest Data::Ethics & Practice"
+theme: mediumish-gohugo-theme
+summaryLength: 25
+copyright: Michele Claibourn - All rights reserved
+enableEmoji: yes
+publishDir: docs
+params:
+  description: LPPS 5720 Spring 2023
+  author:
+    name: "Professor: Michele Claibourn"
+    description: "(Director of Equitable Analysis, UVA Equity Center)"
+    thumbnail: images/pid_hex2.png
+  index:
+    alertbar: no
+    mdtext: |
+      Thursdays, January 19-April 27, 3:30-6:00
+      
+      *Dr. Michele Claibourn (Director of Equitable Analysis, UVA Equity Center and Assistant Professor in Batten)*
+      
+      **Email: mclaibourn@virginia.edu  |  Student Hours: Thu 1:00-2:00 and by appt.  |  Office: Let's meet outside or on zoom**
+    picture: images/pid_hex2.png
+    subtitle: LPPS 5720 Spring 2023
+    title: "Public Interest Data::Ethics & Practice"
+  logo: 
+  social:
+    github: mclaibourn
+    twitter: mclaibourn
+    linkedin: mclaibourn
+    mail: mclaibourn@virginia.edu
+
+menu:
+  main:
+    - identifier: syllabus
+      name: Syllabus
+      url: /static/syllabus
+      weight: 100
+    - identifier: schedule
+      name: Schedule
+      url: /static/schedule
+      weight: 200
+    - identifier: resources
+      name: Resources
+      url: /static/resources
+      weight: 300
+    - identifier: projects
+      name: Projects
+      url: /static/projects
+      weight: 400
+    - identifier: slack
+      name: Class Slack
+      url: https://data-ethics-practice.slack.com
+      weight: 500
+    - identifer: perusall
+      name: Perusall
+      url: https://perusall.com/
+      weight: 600
+#    - identifier: rstudio
+#      name: RStudio Cloud
+#      url: https://rstudio.cloud/
+#      weight: 700
+    - identifier: policy
+      name: Batten Policies
+      url: /static/policy
+      weight: 800
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
