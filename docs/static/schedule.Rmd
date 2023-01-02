@@ -1,0 +1,95 @@
+---
+title: "Schedule"
+output:
+  blogdown::html_page:
+    toc: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Schedule at a glance
+
+`r blogdown::shortcode("schedule")`
+
+
+Bring a laptop with R and RStudio installed! [Instructions for installing R, RStudio, and all the tidyverse packages.](../install/)
+
+## August 24
+Getting started with R/Rstudio, dplyr, and ggplot (oh my!)
+
+*Key Reading*
+
+* Jonathan Schwabish. 2021. Better Data Visualizations: A Guide for Scholars, Researchers, and Wonks. Columbia University Press. [Chapter 0: Introduction, Chapter 1: Visual Processing and Perceptual Rankings](https://ebookcentral-proquest-com.proxy01.its.virginia.edu/lib/uva/reader.action?docID=6181760)
+* Claus O. Wilke. 2019. Fundamentals of Data Visualization. O’Reilly. [Chapter 1: Introduction](https://clauswilke.com/dataviz/introduction.html), [Chapter 2: Mapping Data onto Aesthetics](https://clauswilke.com/dataviz/aesthetic-mapping.html)
+
+*Reference Reading*
+
+* Hadley Wickham and Garrett Grolemund. 2017. R for Data science. O’Reilly. [Chapter 3](https://r4ds.had.co.nz/data-visualisation.html), [Chapter 4](https://r4ds.had.co.nz/workflow-basics.html), [Chapter 5](https://r4ds.had.co.nz/transform.html)
+* Kieran Healy. 2018. Data Visualization: A Practical Introduction. Princeton University Press. [Chapter 2](https://socviz.co/gettingstarted.html#gettingstarted), [Chapter 3](https://socviz.co/makeplot.html#makeplot)
+
+
+## August 31
+Visualization principles; visualizing counts, proportions, and distributions
+
+*Key Reading*
+
+* Alberto Cairo. 2016. The Truthful Art: Data, Charts, and Maps for Communication. New Riders. [Chapter 2: The Five Qualities of Great Visualizations](https://search.lib.virginia.edu/sources/uva_library/items/u8545323)
+* Jonathan Schwabish. 2021. Better Data Visualizations: A Guide for Scholars, Researchers, and Wonks. Columbia University Press. [Chapter 2: Five Guidelines for Better Data Visualizations](https://ebookcentral-proquest-com.proxy01.its.virginia.edu/lib/uva/reader.action?docID=6181760)
+* Catherine D’Ignazio and Laura Klein. 2020. Data Feminism (open draft version). MIT Press. [Chapter 3: On Rational, Scientific, Objective Viewpoints from Mythical, Imaginary, Impossible Standpoints](https://data-feminism.mitpress.mit.edu/pub/5evfe9yd/release/5)
+* Claus O. Wilke. 2019. Fundamentals of Data Visualization. O’Reilly. [Chapter 5: Directory of Visualizations](https://clauswilke.com/dataviz/directory-of-visualizations.html)
+
+*Reference Reading*
+
+* Hadley Wickham and Garrett Grolemund. 2017. R for Data science. O’Reilly. [Chapter 12](https://r4ds.had.co.nz/tidy-data.html)
+* Claus O. Wilke. 2019. Fundamentals of Data Visualization. O’Reilly. [Chapter 6](https://clauswilke.com/dataviz/visualizing-amounts.html), [Chapter 7](https://clauswilke.com/dataviz/histograms-density-plots.html), [Chapter 10](https://clauswilke.com/dataviz/visualizing-proportions.html) (Note, all of Wilke’s code is on his [github page](https://github.com/clauswilke/dataviz)!
+* Kieran Healy. 2018. Data Visualization: A Practical Introduction. Princeton University Press. [Chapter 4](https://socviz.co/groupfacettx.html#groupfacettx)
+
+
+## September 7
+Using color; tidy data - separate/unite, joins; visualizing amounts, proportions, relationships; R markdown and communication
+
+*Key Reading*
+
+* Claus O. Wilke. 2019. Fundamentals of Data Visualization. O’Reilly. [Chapter 4: Color Scales](https://clauswilke.com/dataviz/color-basics.html), [Chapter 19: Common Pitfalls of Color Use](https://clauswilke.com/dataviz/color-pitfalls.html)
+* Jonathan Schwabish, Alice Feng. 2021. ["Do No Harm Guide: Applying Equity Awareness in Data Visualization."](https://www.urban.org/research/publication/do-no-harm-guide-applying-equity-awareness-data-visualization) Urban Institute. 
+
+*Reference Reading*
+
+* Claus O. Wilke. 2019. Fundamentals of Data Visualization. O’Reilly. [Chapter 12](https://clauswilke.com/dataviz/visualizing-associations.html), [Chapter 16](https://clauswilke.com/dataviz/visualizing-uncertainty.html), [Chapter 21](https://clauswilke.com/dataviz/multi-panel-figures.html)
+* Hadley Wickham and Garrett Grolemund. 2017. R for Data science. O’Reilly. [Chapter 13](https://r4ds.had.co.nz/relational-data.html), [Chapter 27](https://r4ds.had.co.nz/r-markdown.html), [Chapter 29](https://r4ds.had.co.nz/r-markdown-formats.html)
+
+## September 14
+Tidy data - pivots/reshape; space and maps
+
+*Key Reading*
+
+* Jonathan Schwabish. 2021. Better Data Visualizations : A Guide for Scholars, Researchers, and Wonks. Columbia University Press. [Chapter 7: Geospatial](https://ebookcentral-proquest-com.proxy01.its.virginia.edu/lib/uva/reader.action?docID=6181760)
+* Claus O. Wilke. 2019. Fundamentals of Data Visualization. O’Reilly. [Chapter 15: Visualizing Geospatial Data](https://clauswilke.com/dataviz/geospatial-data.html)
+
+*Reference Reading*
+
+* Kieran Healy. 2018. Data Visualization: A Practical Introduction. Princeton University Press. [Chapter 5](https://socviz.co/workgeoms.html#workgeoms), [Chapter 7](https://socviz.co/maps.html#maps)
+* [Leaflet for R](https://rstudio.github.io/leaflet/): Introduction, The Map Widget, Basemaps, Markers, Popups and Labels, Colors, Legends, Choropleths
+* Claus O. Wilke. 2019. Fundamentals of Data Visualization. O’Reilly. [Chapter 20](https://clauswilke.com/dataviz/redundant-coding.html)
+
+
+## September 21
+Peer presentations! Annotating and combining figures, enhancing and customizing visuals
+
+*Key Reading*
+
+* Jonathan Schwabish. 2021. Better Data Visualizations: A Guide for Scholars, Researchers, and Wonks. Columbia University Press. [Chapter 13: Redesigns](https://ebookcentral-proquest-com.proxy01.its.virginia.edu/lib/uva/reader.action?docID=6181760)
+* Eva Murray and Andy Kriebel. 2018. #MakeoverMonday: Improving How We Visualize and Analyze Data, One Chart at a Time. John Wiley & Sons. [Chapter 8: Iterate to Improve](https://ebookcentral-proquest-com.proxy01.its.virginia.edu/lib/uva/reader.action?docID=5554190)
+* Cole Nussbaumer Knaflic. 2015. Storytelling with Data: A Data Visualization Guide for Business Professionals. John Wiley & Sons. [Chapter 6: Dissecting Model Visuals](https://ebookcentral-proquest-com.proxy01.its.virginia.edu/lib/uva/reader.action?docID=4187267)
+
+*Reference Reading*
+
+* Claus O. Wilke. 2019. Fundamentals of Data Visualization. O’Reilly. [Chapter 22](https://clauswilke.com/dataviz/figure-titles-captions.html), [Chapter 23](https://clauswilke.com/dataviz/balance-data-context.html), [Chapter 24](https://clauswilke.com/dataviz/small-axis-labels.html), [Chapter 29](https://clauswilke.com/dataviz/telling-a-story.html)
+* Kieran Healy. 2018. Data Visualization: A Practical Introduction. Princeton University Press. [Chapter 8](https://socviz.co/refineplots.html#refineplots)
+* David Keyes. 2019. [“How to Make Beautiful Tables in R.”](https://rfortherestofus.com/2019/11/how-to-make-beautiful-tables-in-r/) R for the Rest of Us.
+
+
+## September 28
+Submit Final Projects!
