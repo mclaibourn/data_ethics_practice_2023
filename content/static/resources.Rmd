@@ -1,0 +1,36 @@
+---
+title: "Resources"
+output:
+  blogdown::html_page:
+    toc: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+We'll add resources here as they become relevant or we find them. Feel free to send along things you've found useful!
+
+## Getting Started with R
+
+* [Instructions for installing R, RStudio, and all the tidyverse packages](../install/).
+* [Posit (formerly RStudio) Cloud Guide](https://posit.cloud/plans/free), run a full instance of RStudio in your web browser, a great way to start if you're struggling with installation (you can get 25 free hours of use a month, but it's not really designed to handle large datasets).
+* [Posit (formerly RStudio) Primers](https://posit.cloud/learn/primers),
+* [The Tidyverse Style Guide](https://style.tidyverse.org/index.html), suggestions for good coding practices
+* [Stata to R::Cheat Sheet](https://mentalbreaks.rbind.io/posts/stata-to-r/)
+* [LearnR4Free](https://www.learnr4free.com/)
+
+## Free R Books 
+We use a chapter or four from several of these, but you might find other sections useful as well. (Incredibly, this is only a partial list.)
+
+* James Scott. 2021. [Data Science in R: A Gentle Introduction.](https://bookdown.org/jgscott/DSGI/) 
+* Hadley Wickham and Garrett Grolemund. 2017. [R for Data science. O’Reilly.](https://r4ds.had.co.nz/) 
+* Rafael A. Irizarry. 2021. [Introduction to Data Science.](https://rafalab.github.io/dsbook/) 
+* Chester Ismay and Albert Y. Kim. 2021. [Statistical Inference via Data Science: A ModernDive into R and the Tidyverse.](https://moderndive.com/). CRC Press. 
+* Bradley Boehmke & Brandon Greenwell. 2021. [Hands-On Machine Learning with R.](https://bradleyboehmke.github.io/HOML/) Routledge. 
+* Paul Roback and Julie Legler. 2021. [Beyond Multiple Linear Regression.](https://bookdown.org/roback/bookdown-BeyondMLR/) Routledge.
+* Kieran Healy. 2018. [Data Visualization: A Practical Introduction.](https://socviz.co/) Princeton University Press.
+* Carson Sievert. 2019. [Interactive web-based data visualization with R, plotly, and shiny.](https://plotly-r.com/) CRC Press. 
+
+## Project-Oriented Resources TBA
+
