@@ -1,0 +1,124 @@
+lessons:
+  - header: true
+
+  - title: "Introductions"
+    date: 2023-01-19
+    date_link: 
+    read: "january-19---introductions"
+    read_label: "Introductions"
+    material: 
+    material_link: 
+ 
+  - title: "Data as Power, Data Wrangling"
+    date: 2023-01-26
+    date_link: 
+    read: "january-26---data-as-power-data-wrangling"
+    read_label: "Data as Power, Data Wrangling"
+    material: 
+    material_link: 
+    assignment: 
+    assignment_label: 
+
+  - title: "Racialized Data, Data Wrangling"
+    date: 2023-02-02 
+    date_link: 
+    read: "february-2---racialized-data-data-wrangling"
+    read_label: "Racialized Data, Data Wrangling"
+    material: 
+    material_link: 
+    assignment: 
+    assignment_label: 
+
+  - title: "Gendering Data, Data Wrangling and Visualization"
+    date: 2023-02-09
+    date_link: 
+    read: "february-9---gendering-data-data-wrangling-and-visualization"
+    read_label: "Gendering Data, Data Wrangling and Visualization"
+    material: 
+    material_link: 
+    assignment: 
+    assignment_label: 
+
+  - title: "Relations in/to Data, Data Visualization"
+    date: 2023-02-16
+    date_link: 
+    read: "february-16---relations-in-to-data-data-visualization"
+    read_label: "Relations in/to Data, Data Visualization"
+    material: 
+    material_link: 
+    assignment: 
+    assignment_label: 
+
+  - title: "Data and Harm, Data Visualization"
+    date: 2023-02-23
+    date_link: 
+    read: "february-23---data-and-harm-data-visualization"
+    read_label: "Data and Harm, Data Visualization"
+    material: 
+    material_link: 
+    assignment: 
+    assignment_label: 
+    
+  - title: "Communicating Data, Data Wrangling"
+    date: 2023-03-02
+    date_link: 
+    read: "march-2---communicating-data-data-wrangling"
+    read_label: "Communicating Data, Data Wrangling"
+    material: 
+    material_link: 
+
+  - title: "Data Processes, Data Wrangling"
+    date: 2023-03-16
+    date_link: 
+    read: "march-16---data-processes-data-wrangling"
+    read_label: "Data Processes, Data Wrangling"
+    material: 
+    material_link: 
+
+  - title: "Data Practices, Data Tables"
+    date: 2023-03-23
+    date_link: 
+    read: "march-23---data-practices-data-tables"
+    read_label: "Data Practices, Data Tables"
+    material: 
+    material_link: 
+
+  - title: "Countermapping, Spatial Data"
+    date: 2023-03-30
+    date_link: 
+    read: "march-30---countermapping-spatial-data"
+    read_label: "Countermapping, Spatial Data"
+    material: 
+    material_link: 
+
+  - title: "Project Peer Review, R Markdown"
+    date: 2023-04-06
+    date_link: 
+    read: "april-6---project-peer-review-r-markdown"
+    read_label: "Project Peer Review, R Markdown"
+    material: 
+    material_link: 
+
+  - title: "Project Progress, Data Visualization"
+    date: 2023-04-13
+    date_link: 
+    read: "april-13---project-progress-data-visualization"
+    read_label: "Project Progress, Data Visualization"
+    material: 
+    material_link: 
+
+  - title: "Project Progress, Data Visualization"
+    date: 2023-04-20
+    date_link: 
+    read: "april-20---project-progress-data-visualization"
+    read_label: "Project Progress, Data Visualization"
+    material: 
+    material_link: 
+
+  - title: "Project Presentations"
+    date: 2023-04-27
+    date_link: 
+    read: "april-27---project-presentations"
+    read_label: "Project Presentations"
+    material: 
+    material_link: 
