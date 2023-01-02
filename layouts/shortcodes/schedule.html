@@ -1,0 +1,73 @@
+<table class="table schedule" style="max-width:100%">
+    <tbody>
+
+        {{- range .Site.Data.schedule }}
+        {{- range . }}
+        <tr>
+            {{- if .header }}
+
+            <td style="width:5%;text-align:left" class="mid-table-header">Week</td>
+            <td style="width:25%;text-align:center" class="mid-table-header">Reading</td>
+            <td style="width:5%;text-align:center" class="mid-table-header">Materials</td>
+           <td style="width:10%;text-align:center" class="mid-table-header">What's Due?</td>
+
+            {{- else }}
+
+            {{- if .date_link }}
+            <td align="center" style="width:5%;text-align:center"><a
+                    href="{{ .Site.baseurl }}/static/rnotes/{{ .date_link }}/">
+               {{ dateFormat "Jan 2" .date  }}</a></td>
+
+            {{- else if .date}}
+            <td align="left" style="width:5%;text-align:left">
+              {{ dateFormat "Jan 2" .date  }}</td>
+            {{- end }}
+            
+            {{- if .read }}
+            
+            <td align="center" style="width:25%;text-align:center"><a
+                    href="{{ .Site.baseurl }}/static/schedule/#{{ .read }}">
+                <i class="fa fa-book-reader"></i> {{ .read_label }}</a></td>
+            {{- else }}
+            <td align="center" style="width:25%;text-align:center">
+                <font color="f1f1f1">
+                    <i class="fa fa-book-reader"></i></font>
+            </td>
+            {{- end }}
+
+            {{- if .material }}
+            
+            <td align="center" style="width:5%;text-align:center"><a
+                    href="{{ .Site.baseurl }}/static/rnotes/{{ .material_link }} ">
+                <i class="fa fa-laptop-code"></i> {{ .material }}</a></td>
+            {{- else }}
+            <td align="center" style="width:5%;text-align:center">
+                <font color="f1f1f1">
+                    <i class="fa fa-laptop-code"></i></font>
+            </td>
+            {{- end }}
+
+            
+            {{- if .assignment }}
+            
+            <td align="center" style="width:10%;text-align:center"><a href="{{ .Site.baseurl }}/static/rnotes/{{ .assignment }}/ "><i class="fas fa-file"></i> {{ .assignment_label }}</td>
+            {{- else if .assignment_label}}
+            <td align="center" style="width:10%;text-align:center">
+              <i class="fas fa-file"></i> {{ .assignment_label }}
+            </td>
+            {{- else }}
+            <td align="center" style="width:10%;text-align:center">
+                <font color="f1f1f1">
+                    <i class="fas fa-file"></i></font>
+            </td>
+            {{- end }}
+
+
+            {{- end }}
+        </tr>
+        {{- end }}
+        {{- end }}
+
+    </tbody>
+
+</table>
