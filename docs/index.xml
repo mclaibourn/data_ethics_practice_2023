@@ -2,55 +2,65 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Public Interest Data::Ethics &amp; Practice</title>
-    <link>https://datavis22.mclaibourn.org/</link>
+    <link>https://pidep23.mclaibourn.org/</link>
     <description>Recent content on Public Interest Data::Ethics &amp; Practice</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Michele Claibourn - All rights reserved</copyright>
-    <lastBuildDate>Sun, 07 Oct 2018 11:12:00 +0200</lastBuildDate><atom:link href="https://datavis22.mclaibourn.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Oct 2018 11:12:00 +0200</lastBuildDate><atom:link href="https://pidep23.mclaibourn.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Policies</title>
-      <link>https://datavis22.mclaibourn.org/static/policy/</link>
+      <link>https://pidep23.mclaibourn.org/static/policy/</link>
       <pubDate>Sun, 07 Oct 2018 11:12:00 +0200</pubDate>
       
-      <guid>https://datavis22.mclaibourn.org/static/policy/</guid>
+      <guid>https://pidep23.mclaibourn.org/static/policy/</guid>
       <description>Wellbeing and Duty to Care Statement If you are feeling overwhelmed, stressed, or isolated, several individuals at Batten are ready and want to help. Both Jill Rockwell, Assistant Dean for Student Services, and Amanda Crombie, Assistant Dean for Academic Programs, are available to support all Batten Students.</description>
     </item>
     
     <item>
       <title>Getting Started</title>
-      <link>https://datavis22.mclaibourn.org/static/install/</link>
+      <link>https://pidep23.mclaibourn.org/static/install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://datavis22.mclaibourn.org/static/install/</guid>
-      <description>Installing R, RStudio, and tidyverse All of our visualization work will be done in the open source (and free!) programming language R. You will use RStudio as the main program to access R.</description>
+      <guid>https://pidep23.mclaibourn.org/static/install/</guid>
+      <description>Installing R, RStudio, and tidyverse All of our data work will be done in the open source (and free!) programming language R. You will use RStudio as the main program to access R.</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://pidep23.mclaibourn.org/static/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pidep23.mclaibourn.org/static/projects/</guid>
+      <description>Project 1: Stepping Stones Report In the first half of the semester, while we’re learning more about R, reproducible data workflows, and ethical data practices, we’ll contribute to work for the City of Charlottesville to expand and enrich a community “Stepping Stones” report, a collection of 39 metrics to gauge well-being in Charlottesville and Albemarle.</description>
     </item>
     
     <item>
       <title>Resources</title>
-      <link>https://datavis22.mclaibourn.org/static/resources/</link>
+      <link>https://pidep23.mclaibourn.org/static/resources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://datavis22.mclaibourn.org/static/resources/</guid>
-      <description>Getting Started with R Instructions for installing R, RStudio, and all the tidyverse packages The Tidyverse Style Guide, suggestions for good coding practices Stata to R::Cheat Sheet Finding Data Jenn Huck, UVA’s Data Librarian and the library’s Data Resources pages Find and Question Your Data, from Jack Dougherty and Ilya Ilyankou, Hands-On Data Visualization.</description>
+      <guid>https://pidep23.mclaibourn.org/static/resources/</guid>
+      <description>We’ll add resources here as they become relevant or we find them. Feel free to send along things you’ve found useful!
+Getting Started with R Instructions for installing R, RStudio, and all the tidyverse packages.</description>
     </item>
     
     <item>
       <title>Schedule</title>
-      <link>https://datavis22.mclaibourn.org/static/schedule/</link>
+      <link>https://pidep23.mclaibourn.org/static/schedule/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://datavis22.mclaibourn.org/static/schedule/</guid>
-      <description>Schedule at a glance Notes Reading Scripts What&#39;s Due? Aug 24 Getting Started Week 1 Aug 31 Principles, Visualizing Distributions Week 2 Problem Set 1 Sep 7 Color, Relationships, R Markdown Week 3 Problem Set 2 Sep 14 Annotations, Space and Maps Week 4 Problem Set 3 Sep 21 Presentations and Customization Week 5 Problem Set 4 Sep 28 Submit Project Final Projects Bring a laptop with R and RStudio installed!</description>
+      <guid>https://pidep23.mclaibourn.org/static/schedule/</guid>
+      <description>Week Reading Materials What&#39;s Due? Jan 19 Introductions Jan 26 Data as Power, Data Wrangling Feb 2 Racialized Data, Data Wrangling Feb 9 Gendering Data, Data Wrangling and Visualization Feb 16 Relations in/to Data, Data Visualization Feb 23 Data and Harm, Data Visualization Mar 2 Communicating Data, Data Wrangling Mar 16 Data Processes, Data Wrangling Mar 23 Data Practices, Data Tables Mar 30 Countermapping, Spatial Data Apr 6 Project Peer Review, R Markdown Apr 13 Project Progress, Data Visualization Apr 20 Project Progress, Data Visualization Apr 27 Project Presentations January 19 - Introductions Introductions to class, to each other, to data feminism, to projects, and to R.</description>
     </item>
     
     <item>
       <title>Syllabus</title>
-      <link>https://datavis22.mclaibourn.org/static/syllabus/</link>
+      <link>https://pidep23.mclaibourn.org/static/syllabus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://datavis22.mclaibourn.org/static/syllabus/</guid>
-      <description>Overview and Goals Spring 20223 Projects Project 1 Project 2 How We’ll Work R, RStudio Materials Getting Help and the Class Slack How We’ll Evaluate Our Work Reading Annotations, 20% Individual Data/R Assignments, 20% Collaborative Learning, 10% Project 1, 20% Project 2, 30% Pre-Class Tasks Overview and Goals This course is intended to provide students experience with data science within a framework of data ethics in service of equity-oriented public policy.</description>
+      <guid>https://pidep23.mclaibourn.org/static/syllabus/</guid>
+      <description>Overview and Goals Spring 20223 Projects Project 1: Stepping Stones Report Project 2: Multiple Equity Center Projects How We’ll Work R, RStudio Materials Getting Help and the Class Slack How We’ll Evaluate Our Work Reading Annotations, 20% Individual Data/R Assignments, 20% Collaborative Learning, 10% Project 1: Stepping Stones Report, 20% Project 2: Multiple Equity Center Projects, 30% Pre-Class Tasks Overview and Goals This course is intended to provide students experience with data science within a framework of data ethics in service of equity-oriented public policy.</description>
     </item>
     
   </channel>

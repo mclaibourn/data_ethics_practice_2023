@@ -10,12 +10,12 @@
 
 	<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Getting Started"/>
-<meta name="twitter:description" content="Installing R, RStudio, and tidyverse All of our visualization work will be done in the open source (and free!) programming language R. You will use RStudio as the main program to access R."/>
+<meta name="twitter:description" content="Installing R, RStudio, and tidyverse All of our data work will be done in the open source (and free!) programming language R. You will use RStudio as the main program to access R."/>
 
 	<meta property="og:title" content="Getting Started" />
-<meta property="og:description" content="Installing R, RStudio, and tidyverse All of our visualization work will be done in the open source (and free!) programming language R. You will use RStudio as the main program to access R." />
+<meta property="og:description" content="Installing R, RStudio, and tidyverse All of our data work will be done in the open source (and free!) programming language R. You will use RStudio as the main program to access R." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://datavis22.mclaibourn.org/static/install/" /><meta property="article:section" content="static" />
+<meta property="og:url" content="https://pidep23.mclaibourn.org/static/install/" /><meta property="article:section" content="static" />
 
 
 
@@ -28,10 +28,10 @@
 <script src="https://kit.fontawesome.com/dc81c74019.js" crossorigin="anonymous"></script>
 
 	
-	<link rel="stylesheet" href="https://datavis22.mclaibourn.org/css/medium.a66a46da683b1d4aca7ada33fee113fe258d13edbe38290bbb9037575eb6c237.css" integrity="sha256-pmpG2mg7HUrKetoz/uET/iWNE&#43;2&#43;OCkLu5A3V162wjc=">
+	<link rel="stylesheet" href="https://pidep23.mclaibourn.org/css/medium.a66a46da683b1d4aca7ada33fee113fe258d13edbe38290bbb9037575eb6c237.css" integrity="sha256-pmpG2mg7HUrKetoz/uET/iWNE&#43;2&#43;OCkLu5A3V162wjc=">
 
 	
-	<link rel="stylesheet" href="https://datavis22.mclaibourn.org/css/additional.1d1470200a8f7e475ceb2bb32a263a0138aa92508eb13ac58c0ab0ec3bc4af0a.css" integrity="sha256-HRRwIAqPfkdc6yuzKiY6ATiqklCOsTrFjAqw7DvErwo=">
+	<link rel="stylesheet" href="https://pidep23.mclaibourn.org/css/additional.1d1470200a8f7e475ceb2bb32a263a0138aa92508eb13ac58c0ab0ec3bc4af0a.css" integrity="sha256-HRRwIAqPfkdc6yuzKiY6ATiqklCOsTrFjAqw7DvErwo=">
 
 	
 	
@@ -40,7 +40,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
     <div class="container pr-0">
         
-        <a class="navbar-brand" href="https://datavis22.mclaibourn.org//">
+        <a class="navbar-brand" href="https://pidep23.mclaibourn.org//">
 
             
             <span style="font-family:Righteous;">Public Interest Data::Ethics &amp; Practice</span>
@@ -71,11 +71,11 @@
                 </li>
                  
                 <li class="nav-item ">
-                    <a class="nav-link" href="https://data-ethics-practice.slack.com">Class Slack</a>
+                    <a class="nav-link" href="/static/projects">Projects</a>
                 </li>
                  
                 <li class="nav-item ">
-                    <a class="nav-link" href="/static/projects">Projects</a>
+                    <a class="nav-link" href="https://data-ethics-practice.slack.com">Class Slack</a>
                 </li>
                  
                 <li class="nav-item ">
@@ -110,25 +110,24 @@
 
 <div id="installing-r-rstudio-and-tidyverse" class="section level2">
 <h2>Installing R, RStudio, and tidyverse</h2>
-<p>All of our visualization work will be done in the open source (and free!) programming language R. You will use RStudio as the main program to access R. Think of R as an engine and RStudio as a car dashboard—R handles all the calculations and the actual statistics, while RStudio provides a nice interface for running R code.</p>
+<p>All of our data work will be done in the open source (and free!) programming language R. You will use RStudio as the main program to access R. Think of R as an engine and RStudio as a car dashboard: R handles all the calculations and the actual statistics, while RStudio provides a nice interface for running R code.</p>
 <div id="install-r" class="section level3">
 <h3>Install R</h3>
 <p>First you need to install R itself (the engine).</p>
 <ol style="list-style-type: decimal">
 <li><p>Go to the CRAN (Collective R Archive Network) website: <a href="https://cran.r-project.org/" class="uri">https://cran.r-project.org/</a></p></li>
-<li><p>Click on “Download R for XXX”, where XXX is either Mac or Windows:</p></li>
-</ol>
+<li><p>Click on “Download R for XXX”, where XXX is either Mac or Windows:</p>
 <ul>
-<li>If you use macOS, scroll down to the first .pkg file in the list of files (as of right now, it’s R-4.2.1.pkg) and download it.</li>
+<li>If you use macOS, scroll down to the first .pkg file in the list of files (as of right now, it’s R-4.2.2.pkg) and download it.</li>
 <li>If you use Windows, click “base” (or click on the bolded “install R for the first time” link) and download it.</li>
-</ul>
-<ol start="3" style="list-style-type: decimal">
-<li>Double click on the downloaded file (check your Downloads folder). Click yes through all the prompts to install like any other program.</li>
+</ul></li>
+<li><p>Double click on the downloaded file (check your Downloads folder). Click yes through all the prompts to install like any other program.</p></li>
+<li><p>If you use macOS, <a href="https://www.xquartz.org/">download and install XQuartz</a>. You do not need to do this on Windows.</p></li>
 </ol>
 <p>If you already have R installed, and want to update it (aim for a 4.x.x version)<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></p>
 <ul>
-<li>On Mac, you can simply download and install the newest version of R. When you restart RStudio, it will use the updated version of R.</li>
-<li>On Windows, try using the package <a href="https://cran.r-project.org/web/packages/installr/index.html">installr</a>
+<li><p>On Mac, you can simply download and install the newest version of R. When you restart RStudio, it will use the updated version of R.</p></li>
+<li><p>On Windows, try using the package <a href="https://cran.r-project.org/web/packages/installr/index.html">installr</a></p>
 <ul>
 <li>Install and load installr: <code>install.packages("installr")</code> and <code>library(installr)</code></li>
 <li>Call the <code>updateR()</code> function. This will start the updating process of your R installation by: “finding the latest R version, downloading it, running the installer, deleting the installation file, copy and updating old packages to the new R installation.”</li>
@@ -137,11 +136,11 @@
 </div>
 <div id="install-rstudio" class="section level3">
 <h3>Install RStudio</h3>
-<p>Next, you need to install RStudio, the nicer graphical user interface (GUI) for R (the dashboard). Once R and RStudio are both installed, you can ignore R and only use RStudio. RStudio will use R automatically and you won’t ever have to interact with it directly.</p>
+<p>Next, you need to install RStudio (the dashboard), the graphical user interface (GUI) for R. Once R and RStudio are both installed, you can ignore R. RStudio will use R automatically and you won’t have to interact with it directly.</p>
 <ol style="list-style-type: decimal">
-<li><p>Go to the free download location on RStudio’s website: <a href="https://www.rstudio.com/products/rstudio/download/#download" class="uri">https://www.rstudio.com/products/rstudio/download/#download</a></p></li>
-<li><p>Select the installer (from the first table) that corresponds with your computer’s operating system (Windows or macOS).</p></li>
-<li><p>Double click on the downloaded file (check your Downloads folder). Click yes through all the prompts to install as per usual.</p></li>
+<li><p>Go to the free download location on the Posit/RStudio website – <a href="https://posit.co/download/rstudio-desktop/#download" class="uri">https://posit.co/download/rstudio-desktop/#download</a> – and scroll down to the first table.</p></li>
+<li><p>Click the download that corresponds with your computer’s operating system (Windows or macOS).</p></li>
+<li><p>Double click on the downloaded file (check your Downloads folder). Click yes through all the prompts to install.</p></li>
 <li><p>Double click on the RStudio app to run it (check your applications folder or start menu).</p></li>
 </ol>
 <p>If you already have RStudio installed and want to update it</p>
@@ -153,7 +152,7 @@
 <h3>Install <code>tidyverse</code></h3>
 <p>R packages are easy to install with RStudio.</p>
 <ol style="list-style-type: decimal">
-<li>Select the packages panel (in the lower right quandrant: Files/Plots/Packages/Help), then click on “Install.” (Alternatively, in the menu bar at the top, click “Tools” –&gt; “Install Packages…”)</li>
+<li>Select the packages panel (in the lower right quadrant: Files/Plots/Packages/Help), then click on “Install.” (Alternatively, in the menu bar at the top, click “Tools” –&gt; “Install Packages…”)</li>
 <li>Type the name of the package you want (<code>tidyverse</code>) to install in the pop-up window, and press Install.<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a></li>
 </ol>
 <p>If you already have tidverse installed and want to update it</p>
@@ -162,14 +161,14 @@
 </ul>
 </div>
 <div id="celebrate" class="section level3">
-<h3>Celebrate</h3>
+<h3>Celebrate 🥳</h3>
 <p>You’re awesome and ready to start!</p>
 <div style="text-align:center;">
 <img src="https://media.giphy.com/media/35HTaxVJWzp2QOShct/giphy.gif" width="200">
 </div>
 </div>
 </div>
-<div class="footnotes">
+<div class="footnotes footnotes-end-of-document">
 <hr />
 <ol>
 <li id="fn1"><p>You’ll see the R version you’re using when you first start RStudio, or type <code>R.version.string</code> in the console.<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
@@ -206,6 +205,6 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 
-<script src="https://datavis22.mclaibourn.org/js/mediumish.84218587c174fd40bce82544b98851670f0b124a7324b349c54a4065e2b32ffc.js" integrity="sha256-hCGFh8F0/UC86CVEuYhRZw8LEkpzJLNJxUpAZeKzL/w="></script>
+<script src="https://pidep23.mclaibourn.org/js/mediumish.84218587c174fd40bce82544b98851670f0b124a7324b349c54a4065e2b32ffc.js" integrity="sha256-hCGFh8F0/UC86CVEuYhRZw8LEkpzJLNJxUpAZeKzL/w="></script>
     </body>
 </html>

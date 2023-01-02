@@ -2,25 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://datavis22.mclaibourn.org/static/policy/</loc>
+    <loc>https://pidep23.mclaibourn.org/static/policy/</loc>
     <lastmod>2018-10-07T11:12:00+02:00</lastmod>
   </url><url>
-    <loc>https://datavis22.mclaibourn.org/</loc>
+    <loc>https://pidep23.mclaibourn.org/</loc>
     <lastmod>2018-10-07T11:12:00+02:00</lastmod>
   </url><url>
-    <loc>https://datavis22.mclaibourn.org/static/</loc>
+    <loc>https://pidep23.mclaibourn.org/static/</loc>
     <lastmod>2018-10-07T11:12:00+02:00</lastmod>
   </url><url>
-    <loc>https://datavis22.mclaibourn.org/categories/</loc>
+    <loc>https://pidep23.mclaibourn.org/categories/</loc>
   </url><url>
-    <loc>https://datavis22.mclaibourn.org/static/install/</loc>
+    <loc>https://pidep23.mclaibourn.org/static/install/</loc>
   </url><url>
-    <loc>https://datavis22.mclaibourn.org/static/resources/</loc>
+    <loc>https://pidep23.mclaibourn.org/static/projects/</loc>
   </url><url>
-    <loc>https://datavis22.mclaibourn.org/static/schedule/</loc>
+    <loc>https://pidep23.mclaibourn.org/static/resources/</loc>
   </url><url>
-    <loc>https://datavis22.mclaibourn.org/static/syllabus/</loc>
+    <loc>https://pidep23.mclaibourn.org/static/schedule/</loc>
   </url><url>
-    <loc>https://datavis22.mclaibourn.org/tags/</loc>
+    <loc>https://pidep23.mclaibourn.org/static/syllabus/</loc>
+  </url><url>
+    <loc>https://pidep23.mclaibourn.org/tags/</loc>
   </url>
 </urlset>
