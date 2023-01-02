@@ -1,0 +1,138 @@
+---
+title: "Resources"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Getting Started with R
+
+* [Instructions for installing R, RStudio, and all the tidyverse packages](../install/)
+* [The Tidyverse Style Guide](https://style.tidyverse.org/index.html), suggestions for good coding practices
+* [Stata to R::Cheat Sheet](https://mentalbreaks.rbind.io/posts/stata-to-r/)
+
+
+## Finding Data
+
+* [Jenn Huck](https://data.library.virginia.edu/jennifer-huck/), UVA's Data Librarian and [the library's Data Resources pages](https://data.library.virginia.edu/datasources/)
+* [Find and Question Your Data](https://handsondataviz.org/find.html), from Jack Dougherty and Ilya Ilyankou, Hands-On Data Visualization.
+* [Data.gov](https://www.data.gov/), home of the U.S. Government’s open data
+* [CDC Wonder](https://wonder.cdc.gov/), public health-related data
+* [FBI Crime data explorer](https://crime-data-explorer.app.cloud.gov/pages/home), for criminal, noncriminal, law enforcement data 
+* [Stanford Open Policing Project](https://openpolicing.stanford.edu/), a collection of traffic stop datasets from across the country
+* [Small Business Adminsitration's PPP data](https://www.sba.gov/funding-programs/loans/covid-19-relief-options/paycheck-protection-program/ppp-data)
+* [World Bank](https://data.worldbank.org/), open access to global development data
+* [US City Open Data Census](http://us-cities.survey.okfn.org/), the Sunlight Foundation and Code for America collects data on city open data portals throughout the U.S.
+* [Charlottesville Open Data Portal](https://opendata.charlottesville.org/)
+* [Urban Institute's Data Catalog](https://datacatalog.urban.org/search/type/dataset)
+* [Data is Plural](https://www.data-is-plural.com/), Jeremy Singer-Vine's weekly newsletter of useful/curious datasets
+* [Erik Gahner’s list of political science datasets](https://github.com/erikgahner/PolData), a huge list of useful datasets, divided by topic (governance, elections, policy, political elites, etc.).
+* [Google Dataset Search](https://datasetsearch.research.google.com/), search for thousands of public data sets indexed by Google.
+* [Kaggle Datasets](https://www.kaggle.com/datasets), datasets hosted for various data science competitions over the years
+* So many sources... <div style="text-align:right;"><img src="https://media.giphy.com/media/xT9C25UNTwfZuk85WP/giphy.gif" width="200" style="display: inline-block; margin: 0"></div>
+
+
+## Chart Galleries
+
+* [The R Graph Gallery](https://www.r-graph-gallery.com/)
+* [The Data Visualisation Catalogue](https://datavizcatalogue.com/)
+* [The Data Viz Project](https://datavizproject.com/)
+* [From Data to Viz](https://www.data-to-viz.com/)
+* [Which Visualization?](http://experception.net/Franconeri_ExperCeptionDotNet_DataVisQuickRef.pdf)
+* [The Chartmaker Diretory](http://chartmaker.visualisingdata.com/)
+
+
+## Visualization Inspiration
+
+* [The Pudding](https://pudding.cool/)
+* [BBC Visual and Data Journalism cookbook for R graphics](https://bbc.github.io/rcookbook/)
+* [Fivethirtyeight examples](https://fivethirtyeight.com/features/the-40-weirdest-and-best-charts-we-made-in-2020/) and their [data archive](https://data.fivethirtyeight.com/)
+* [Visualizing Data](https://www.visualisingdata.com/), by Andy Kirk (check out the archive of [monthly/weekly best of lists](https://www.visualisingdata.com/2021/06/best-of-the-visualisation-web-april-2021/))
+* [Flowing Data](https://flowingdata.com/), by Nathan Yau
+* [Information is Beautiful](https://informationisbeautiful.net/), by David McCandless
+* [Data Viz Weekly](https://www.anychart.com/blog/category/data-visualization-weekly/), weekly examples by AnyChart
+* [Seeing Data](http://seeingdata.org/), by a collection of researchers
+* [Info we Trust](https://infowetrust.com/essays), by RJ Andrews
+* [UW Interactive Data Lab](https://idl.cs.washington.edu/), a computer science lab at University of Washington to enhance the understanding and communication of data 
+* [Visual Thinking Lab](https://visualthinking.psych.northwestern.edu/projects.html), a psychology lab at Northwestern studying visual thinking
+* [PolicyViz](https://policyviz.com/), by Jonathan Schwabisch 
+<div style="text-align:center;"><img src="https://media.giphy.com/media/1ylNn0FjtfzCHmxqky/giphy.gif" width="200"></div>
+
+### Anti-Inspiration?
+* [WTF Visualizations](https://viz.wtf/)
+* [Junk Charts](https://junkcharts.typepad.com/), by Kaiser Fung
+* [Storytelling with Data Makeovers](https://www.storytellingwithdata.com/makeovers), by multiple authors
+
+
+## Data Art
+
+* [Hand Crafted](https://www.williamrchase.com/work/), by William R. Chase
+* [Data Paintings](http://giorasimchoni.com/2017/07/30/2017-07-30-data-paintings-the-kandinsky-package), by Giora Simchoni
+* [Data to Art](https://www.data-to-art.com/), curated by Yan Holtz
+* [Dear Data](https://www.dear-data.com/theproject), by Giorgia Lupi and Stefanie Posavec
+* [Martin Wattenberg](http://www.bewitched.com/art.html) and [Fernanda Viegas](http://www.fernandaviegas.com/) collaborations (science and art)
+* [Amplifying Data through Art](https://www.hakaimagazine.com/article-short/amplifying-data-through-art/), profile of artists who represent data
+* [Accidental aRt](https://twitter.com/accidental__aRt), twitter account of data viz errors that might be art
+* [Data Visualization and the Modern Imagination](https://exhibits.stanford.edu/dataviz), an exhibit at Stanford Libraries
+
+
+
+## Color
+
+*R Resources*
+
+* [viridis](https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html)
+* [RColorBrewer](https://renenyffenegger.ch/notes/development/languages/R/packages/RColorBrewer/index) based on [ColorBrewer](https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3) by Cynthia Brewer
+* [Wes Anderson Palettes](https://github.com/karthik/wesanderson)
+* [Ghibli Palettes](https://github.com/ewenme/ghibli)
+* [Emil Hvitfeldt's GitHub of R Color Palettes](https://github.com/EmilHvitfeldt/r-color-palettes)
+* [R Color Cheatsheet](https://www.nceas.ucsb.edu/sites/default/files/2020-04/colorPaletteCheatsheet.pdf)
+
+<div style="text-align:left;"><img src="https://media.giphy.com/media/ieK8pZKcJMo0fWUXC2/giphy.gif" width="150"></div> 
+*General Resources*
+
+* [Adobe Color](https://color.adobe.com/create/color-wheel)
+* [Viz Palette](https://projects.susielu.com/viz-palette)
+* [Color Hunt](https://colorhunt.co/)
+* [Coolers](https://coolors.co/)
+* [Paletton](https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF)
+* [I want hue](https://medialab.github.io/iwanthue/)
+* [Colorgorical](http://vrl.cs.brown.edu/color)
+* [Colorpicker](https://tristen.ca/hcl-picker/#/hlc/6/1/15534C/E2E062)
+
+
+
+## R Markdown
+
+* [R Markdown cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
+* [Markdown cheatsheet](https://packetlife.net/media/library/16/Markdown.pdf)
+* [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/)
+* [RStudio' R Markdown Resources](https://rmarkdown.rstudio.com/)
+* [Cosma Shalizi's Using R Mardown for Class Reports](http://stat.cmu.edu/~cshalizi/rmarkdown/)
+* [10 Awesome R Markdown Tricks](https://towardsdatascience.com/ten-awesome-r-markdown-tricks-56ef6d41098)
+
+## Mapping
+
+* [tiydcensus](https://walker-data.com/tidycensus/index.html) for pulling census data, and mapping with [ggplot::geom_sf](https://walker-data.com/tidycensus/articles/spatial-data.html)
+* More ggplot::geom_sf[examples](https://r-spatial.org/r/2018/10/25/ggplot2-sf.html) and [tutorials](https://evamaerey.github.io/flipbooks/geom_sf/geom_sf.html#1)
+* Examples with [ggplot::geom_polygon and ggmaps](http://eriqande.github.io/rep-res-web/lectures/making-maps-with-R.html)
+* Using [tmap](https://geocompr.robinlovelace.net/adv-map.html) and a great resource for using spatial data in R more generally
+* [Leaflet example](https://www.earthdatascience.org/courses/earth-analytics/get-data-using-apis/leaflet-r/)
+
+
+## Odds and Ends
+
+* [The Design of Interactive Articles](https://distill.pub/2020/communicating-with-interactive-articles/), some theory
+* [Interactive web-based data visualization with R, plotly, and shiny](https://plotly-r.com/), by Carson Sievert
+* [Sharing html on the web](https://bookdown.org/yihui/rmarkdown-cookbook/html-share.html), by Yihui Xie, Christophe Dervieux, Emily Riederer
+* [Interactive tables with reactable](https://glin.github.io/reactable/index.html), be sure to check out the Demos (or [recreating a table](https://towardsdatascience.com/recreate-publication-quality-interactive-tables-in-r-using-reactable-187407bc9702) from the Economist)
+* [Interactive tables with DT](https://rstudio.github.io/DT/)
+* [10+ Guidelines for Better Tables in R](https://themockup.blog/posts/2020-09-04-10-table-rules-in-r/)
+* [File formats](https://clauswilke.com/dataviz/image-file-formats.html), by Claus Wilke
+* [The Plain Person’s Guide to Plain Text Social Science](https://plain-text.co/index.html#introduction), by Kieran Healy 
+* [LearnR4Free](https://www.learnr4free.com/)
