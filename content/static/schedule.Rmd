@@ -14,8 +14,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## January 19 - Introductions
 
-Introductions to class, to each other, to data feminism, to projects, and to R. Bring a laptop with R and RStudio installed! [Instructions for installing R, RStudio, and all the tidyverse packages.](../install/)
-
+Introductions to class, to each other, to data feminism, to projects, and to R (phew!). Bring a laptop with R and RStudio installed! [Instructions for installing R, RStudio, and all the tidyverse packages.](../install/)
 
 *Key Reading*
 
@@ -41,6 +40,7 @@ Considering the power, purpose, provenance and processing of data.
 
 * James Scott. 2021. *Data Science in R: A Gentle Introduction.* [Chapter 2](https://bookdown.org/jgscott/DSGI/lesson_data.html)
 * Rafael A. Irizarry. 2021. *Introduction to Data Science.* [Chapter 2](https://rafalab.github.io/dsbook/r-basics.html)
+* Kyle Walker. [*tidycensus* package](https://walker-data.com/tidycensus/)
 
 
 ## February 2 - Racialized Data, Data Wrangling
@@ -61,9 +61,8 @@ Considering the power, purpose, provenance and processing of data.
 *Key Reading*
 
 * Catherine D'Ignazio and Laura Klein. 2019. *Data Feminism.* MIT Press. [Chapter 4](https://data-feminism.mitpress.mit.edu/pub/h1w0nbqp/release/3)
-* Kevin Guyan. 2022. *Queer Data: Using Gender, Sex and Sexuality Data for Action.* Selection.
+* Kevin Guyan. 2022. *Queer Data: Using Gender, Sex and Sexuality Data for Action.* Selection TBD.
 * Harper B. Keenan. 2022. ["Methodology as Pedagogy: Trans Lives, Social Science, and the Possibilities of Education Research."](https://doi.org/10.3102/0013189X211065740) *Educational Researcher* 51: 307–314. 
-
 
 *Data Practice*
 
@@ -98,7 +97,7 @@ Considering the power, purpose, provenance and processing of data.
 * Rafael A. Irizarry. 2021. *Introduction to Data Science.* [Chapter 11](http://rafalab.dfci.harvard.edu/dsbook/data-visualization-principles.html)
 
 
-## March 2 - Communicating Data, Data Wrangling
+## March 2 - Communicating Data, Wrapping Up
 
 *Key Reading*
 
@@ -107,8 +106,6 @@ Considering the power, purpose, provenance and processing of data.
 
 *Data Practice*
 
-* Hadley Wickham and Garrett Grolemund. 2017. *R for Data Science.* O’Reilly. [Chapter 12](https://r4ds.had.co.nz/tidy-data.html), [Chapter 16](https://r4ds.had.co.nz/dates-and-times.html)
-* Rafael A. Irizarry. 2021. *Introduction to Data Science.* [Chapter 21](https://rafalab.github.io/dsbook/reshaping-data.html)
 
 ## March 9 - Spring Break!
 
@@ -124,9 +121,8 @@ Considering the power, purpose, provenance and processing of data.
 
 *Data Practice*
 
-* Rafael A. Irizarry. 2021. *Introduction to Data Science.* [Chapter 22](https://rafalab.github.io/dsbook/joining-tables.html) 
-* Hadley Wickham and Garrett Grolemund. 2017. *R for Data Science.* O’Reilly. [Chapter 13](https://r4ds.had.co.nz/relational-data.html)
-* Kyle Walker. xxxx. [*tidycensus* package](https://walker-data.com/tidycensus/)
+* Rafael A. Irizarry. 2021. *Introduction to Data Science.* [Chapter 21](https://rafalab.github.io/dsbook/reshaping-data.html), [Chapter 22](https://rafalab.github.io/dsbook/joining-tables.html) 
+* Hadley Wickham and Garrett Grolemund. 2017. *R for Data Science.* O’Reilly. [Chapter 12](https://r4ds.had.co.nz/tidy-data.html), [Chapter 13](https://r4ds.had.co.nz/relational-data.html)
 
 
 ## March 23 - Data Practices, Data Tables
@@ -139,7 +135,7 @@ Considering the power, purpose, provenance and processing of data.
 *Data Practice*
 
 * David Keyes. 2019. [“How to Make Beautiful Tables in R.”](https://rfortherestofus.com/2019/11/how-to-make-beautiful-tables-in-r/) R for the Rest of Us.
-* Hadley Wickham and Garrett Grolemund. 2017. *R for Data Science.* O’Reilly. [Chapter 14](https://r4ds.had.co.nz/strings.html)
+* Hadley Wickham and Garrett Grolemund. 2017. *R for Data Science.* O’Reilly. [Chapter 14](https://r4ds.had.co.nz/strings.html), [Chapter 16](https://r4ds.had.co.nz/dates-and-times.html)
 
 
 ## March 30 - Countermapping, Spatial Data
