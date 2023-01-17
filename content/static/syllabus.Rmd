@@ -19,7 +19,7 @@ This course is intended to provide students experience with data science within 
 * Practice working with real data (that is, messy data resulting from policy administration) to answer pressing questions with attention to the moral and ethical implications of our work. This includes finding, cleaning, and understanding data; exploring, analyzing, modeling data; visualizing, contextualizing, and communicating data; with care and humility and respect for the affected partners and communities throughout.
 * Develop experience in data workflows that support ethical data science, including processes for working collaboratively, openly, inclusively, and reproducibly.
 
-## Spring 20223 Projects
+## Spring 2023 Projects
 This spring, we'll complete two projects. 
 
 ### Project 1: Stepping Stones Report
