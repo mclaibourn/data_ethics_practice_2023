@@ -15,12 +15,17 @@ In the first half of the semester, while we're learning more about R, reproducib
 
 In February, leaders in the City's Department of Human Services will visit to give us some background and context for the Stepping Stones report.
 
-* Week 1 (due midnight Jan 25): Individuals skim through the most recent [Stepping Stones Report](https://www.charlottesville.gov/1623/Stepping-Stones-Report) and, on a shared project sheet, identify their top choices for the collection of measures they'd like to work on. We'll form into teams during class on Jan 26; each team is responsible for a collection of measures.
-* Week 2 (due by class Feb 2): Teams submit initial R script to download assigned measures. Separately, teams submit a 1-2 paragraphs identifying potential policy changes or contexts that might be relevant for assigned measures and warrant further investigation.
-* Week 3 (due by class Feb 9): Teams submit revised script to download assigned measures, due any needed processing, and bind them to the prior data series.
-* Week 4 (due by class Feb 16): Teams submit revised script to download measures, implement any needed procesing, bind them to the prior data series, and create initial visualizatons. Teams also submit 1-3 paragraph outlinign further details on any relevant policy changes or contexts. 
-* Week 5 (due by class Feb 23): Teams submit final version of script to download measures, implement any processing, and bind them to the prior data series. Teams submit initial R markdown file to read in the updated series, visualize them, and incorporate relevant changes or context. Teams will briefly share/show the knitted markdown file in class.
-* Week 6 (due by class Mar 2): Teams submit revised R markdown file to read in the updated series, visualize them, and incorporate relevant changes or context.
+* Week 1 (due by class Jan 26): Individuals skim through the most recent [Stepping Stones Report](https://www.charlottesville.gov/1623/Stepping-Stones-Report). We'll form into teams during class on Jan 26; each team is responsible for a collection of five measures, along with two or three that I will have acquired.
+
+* Week 2 (due by class Feb 2): Teams (a) start outlining purpose and policy contexts for two previously collected measures; (b) write an initial R script to download the first measure in their set and review city excel file for background and issues; and (c) begin work on request for measure not available online.
+
+* Week 3 (due by class Feb 9): Teams (a) continue outlining policy context, explanation of, and documentation for variable 1 along with previously collected measures; (b) update and complete code for acquiring and preparing the first measure in their set; and (c) write code that seeks to acquire the second measure in their set, reviewing city excel file for background and issues.
+
+* Week 4 (due by class Feb 16): Teams (a) continue outlining policy context, justification of, and documentation for variables 1 and 2 along previously collected measures; (b) update and complete code for acquiring and processing second measure in their set; (c) begin some initial visualizations of the measures that have been acquired; and (d) write code that seeks to acquire the third measure in their set, reviewing city excel file for background and issues.
+
+* Week 5 (due by class Feb 23): Teams (a) continue outlining policy context, purpose of, and documentation for variables 1, 2, and 3 along previously collected measures; (b) update and complete code for acquiring and processing third measure in their set; (c) create an initial R markdown file that weaves narration of metrics collected to date with visualization and documentation; and (d) write code that seeks to acquire the fourth measure in their set, reviewing city excel file for background and issues.
+
+* Week 6 (due by class Mar 2): Teams (a) finalize data acquisition and processing scripts for all four variables; (b) update and improve R markdown file to read in all metrics, visualize them, incorporate relevant policy context or changes, explain and document. Teams will briefly share/show the knitted markdown files in class.
 
 **Once complete, we'll add all files to Equity Center GitHub and the html report files to the class webpage.** 
 
@@ -33,19 +38,19 @@ In the second half of the semester, we'll divide up into new teams each working 
 * Local rental markets, based on local tax assessment data
 * Humanizing the Orange Dot report, using using American Community Survey public-use microdata to build family profiles
 * Stepping Stones supplement, looking at racially disaggregated measures
-* And one more we're still pinning down
+* And one more we're still pinning down (if we need it)
 
 ### Project Schedule
 
 The timelines of these projects will vary more widely as the projects prgress, but a few key targets for all teams will include
 
 * Week 1 (due by midnight Mar 15): Individuals read through the brief project scoping documents (TBA) and, on a shared project sheet, identify their top choices for projects they'd like to work on. We'll form into teams during class on Mar 16.
-* Week 2 (due by class Mar 23): Teams submit an initial R script to download, read in, and explore primary data. Teams submit an initial list of at least three relevant citations to review -- these might be research articles, think tank reports, book chapters, news articles, websites, or something else.
-* Week 3 (due by class Mar 30): Teams submit revised script to begin wrangling data and continue data exploration. Teams submit brief reviews of previously suggested materials.
-* Week 4 (due by class Apr 6): Teams submit initial R markdown file to share for peer feedback, including description of question, of available data, explorations of processed data, narrative and ideas drawn from initial literature review, and anything else that makes sense at this time. Teams will pair up in class to present to one another and provide thoughtful feedback.
-* Week 5 (due by class Apr 13): Updates to data preparation scripts and analysis/presentation R markdown files. Teams submit a new list of at least three additional relevant citations to review.
-* Week 6 (due by class Apr 20): Updates to data preparation scripts and analysis/presentation R markdown files. Teams submit brief reviews of newly suggested materials.
-* Week 7 (due by class Apr 27): Updates to data preparation scripts and analysis/presentation R markdown files. Teams use R markdown files to present (almost) final work to class.
-* Week 8 (due by May 4, in lieu of a final): Teams submit final version of R script to download, process and wrangle data. Teams submit final R markdown and knitted html files to analyze, visualize, and interpret data.
+* Week 2 (due by class Mar 23): Teams (a) generate an initial R script to download, read in, and explore primary data and (b) submit an initial list of at least three relevant citations to review -- these might be research articles, think tank reports, book chapters, news articles, websites, or something else.
+* Week 3 (due by class Mar 30): Teams (a) revise the script to wrangle project data and continue data exploration and (b) submit brief reviews of previously suggested materials.
+* Week 4 (due by class Apr 6): Teams (a) generate initial R markdown file to share for peer feedback, including description of question, of available data, explorations of processed data, narrative and ideas drawn from initial literature review, and anything else that makes sense at this time. Teams will pair up in class to present to one another and provide thoughtful feedback.
+* Week 5 (due by class Apr 13): In addition to updates to data preparation scripts and analysis/presentation R markdown files, teams submit a new list of at least three additional relevant citations to review.
+* Week 6 (due by class Apr 20): In addition to updates to data preparation scripts and analysis/presentation R markdown files, teams submit brief reviews of newly suggested materials.
+* Week 7 (due by class Apr 27): In addition to updates to data preparation scripts and analysis/presentation R markdown files, teams use R markdown files to present (almost) final work to class.
+* Week 8 (due by May 4, in lieu of a final): Finalizing everything! R scripts to download, process and wrangle data and R markdown and knitted html files to analyze, visualize, and interpret data.
 
 **Once complete, we'll add all files to Equity Center GitHub and the html report files to the class webpage.** 

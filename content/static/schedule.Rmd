@@ -39,8 +39,7 @@ Considering the power, purpose, provenance and processing of data.
 *Data Practice*
 
 * James Scott. 2021. *Data Science in R: A Gentle Introduction.* [Chapter 2](https://bookdown.org/jgscott/DSGI/lesson_data.html)
-* Rafael A. Irizarry. 2021. *Introduction to Data Science.* [Chapter 2](https://rafalab.github.io/dsbook/r-basics.html)
-* Kyle Walker. [*tidycensus* package](https://walker-data.com/tidycensus/)
+* Hadley Wickham and Garrett Grolemund. 2017. *R for Data Science.* O’Reilly. [Chapter 5](https://r4ds.had.co.nz/transform.html)
 
 
 ## February 2 - Racialized Data, Data Wrangling
@@ -53,8 +52,7 @@ Considering the power, purpose, provenance and processing of data.
 *Data Practice*
 
 * Rafael A. Irizarry. 2021. *Introduction to Data Science.* [Chapter 4](http://rafalab.dfci.harvard.edu/dsbook/tidyverse.html)
-* Hadley Wickham and Garrett Grolemund. 2017. *R for Data Science.* O’Reilly. [Chapter 5](https://r4ds.had.co.nz/transform.html)
-
+* Kyle Walker. 2022. Analyzing US Census Data: Methods, Maps, and Models in R. [Chapter 2](https://walker-data.com/census-r/an-introduction-to-tidycensus.html)
 
 ## February 9 - Gendering Data, Data Wrangling and Visualization
 
@@ -67,7 +65,7 @@ Considering the power, purpose, provenance and processing of data.
 *Data Practice*
 
 * James Scott. 2021. *Data Science in R: A Gentle Introduction.* [Chapter 4](https://bookdown.org/jgscott/DSGI/plots.html)
-* Hadley Wickham and Garrett Grolemund. 2017. *R for Data Science.* O’Reilly. [Chapter 5](https://r4ds.had.co.nz/transform.html)
+* Hadley Wickham and Garrett Grolemund. 2017. *R for Data Science.* O’Reilly. [Chapter 3](https://r4ds.had.co.nz/data-visualisation.html)
 
 
 ## February 16 - Relations in / to Data, Data Visualization
@@ -104,7 +102,6 @@ Considering the power, purpose, provenance and processing of data.
 * Rebecca C. Hetey and Jennifer L. Eberhardt. 2018. "[The Numbers Don’t Speak for Themselves: Racial Disparities and the Persistence of Inequality in the Criminal Justice System.](https://doi.org/10.1177/0963721418763931)" *Current Directions in Psychological Science* 27: 183–187.
 * Allison L. Skinner-Dorkenoo, Apoorva Sarmal, Kasheena G. Rogbeer, Chloe J. Andr ́e, Bhumi Patea, Leah Cha. 2022. “[Highlighting COVID-19 Racial Disparities Can Reduce Support for Safety Precautions among White U.S. Residents.](https://www.sciencedirect.com/science/article/pii/S027795362200257X?via%3Dihub)” *Social Science & Medicine* 301: 1-8.
 
-*Data Practice*
 
 
 ## March 9 - Spring Break!
