@@ -6,9 +6,11 @@ lessons:
     date_link: 
     read: "january-19---introductions"
     read_label: "Introductions"
-    material: 
+    material: ""
     material_link: 
- 
+    assignment: "week1assignment.html"
+    assignment_label: "First Assignment"
+
   - title: "Data as Power, Data Wrangling"
     date: 2023-01-26
     date_link: 
