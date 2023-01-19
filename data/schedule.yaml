@@ -6,8 +6,8 @@ lessons:
     date_link: 
     read: "january-19---introductions"
     read_label: "Introductions"
-    material: ""
-    material_link: 
+    material: "R Notes"
+    material_link: "week1notes.html"
     assignment: "week1assignment.html"
     assignment_label: "First Assignment"
 
