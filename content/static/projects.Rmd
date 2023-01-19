@@ -13,11 +13,11 @@ In the first half of the semester, while we're learning more about R, reproducib
 
 ### Project Schedule
 
-In February, leaders in the City's Department of Human Services will visit to give us some background and context for the Stepping Stones report.
+On February 9, leaders in the City's Department of Human Services will visit to give us some background and context for the Stepping Stones report.
 
 * Week 1 (due by class Jan 26): Individuals skim through the most recent [Stepping Stones Report](https://www.charlottesville.gov/1623/Stepping-Stones-Report). We'll form into teams during class on Jan 26; each team is responsible for a collection of five measures, along with two or three that I will have acquired.
 
-* Week 2 (due by class Feb 2): Teams (a) start outlining purpose and policy contexts for two previously collected measures; (b) write an initial R script to download the first measure in their set and review city excel file for background and issues; and (c) begin work on request for measure not available online.
+* Week 2 (due by class Feb 2): Teams (a) start outlining purpose and policy contexts for two previously collected measures; (b) write an initial R script to download the first measure in their set and review city excel file for background and issues; and (c) begin work on request for measure not available online (e.g., identify who to contact, draft an email; don't send yet - some teams may need to coordinate).
 
 * Week 3 (due by class Feb 9): Teams (a) continue outlining policy context, explanation of, and documentation for variable 1 along with previously collected measures; (b) update and complete code for acquiring and preparing the first measure in their set; and (c) write code that seeks to acquire the second measure in their set, reviewing city excel file for background and issues.
 

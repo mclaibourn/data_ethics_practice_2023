@@ -49,17 +49,17 @@ menu:
       url: /static/projects
       weight: 400
     - identifier: slack
-      name: Class Slack
+      name: Slack
       url: https://data-ethics-practice.slack.com
       weight: 500
     - identifer: perusall
       name: Perusall
       url: https://perusall.com/
       weight: 600
-#    - identifier: rstudio
-#      name: RStudio Cloud
-#      url: https://rstudio.cloud/
-#      weight: 700
+    - identifier: canvas
+      name: Canvas
+      url: https://canvas.its.virginia.edu/courses/58175
+      weight: 700
     - identifier: policy
       name: Batten Policies
       url: /static/policy
