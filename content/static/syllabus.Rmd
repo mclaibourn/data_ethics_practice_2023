@@ -67,7 +67,7 @@ Grades will depend on your learning and contribution to our collective effort, w
 ### Reading Annotations, 20%
 To facilitate understanding and discussion we’ll all contribute to collaborative annotation and commenting on the *key reading* (the data ethics content) using Perusall. I will review these ahead of class to help organize our discussion; which means these are due by 2pm on Thursdays. 
 
-We have reading assigned on 9 out of 13 weeks (minus the first week). Contributing annotations to readings for at least 7 weeks is necessary for full credit; more specifically, you should plan to contribute annotations to at least two weeks in each of these three week periods: 1/26, 2/2 and 2/9; 2/16, 2/23 and 3/2; 3/16, 3/23 and 3/30. 
+We have reading assigned on nine out of 13 weeks (minus the first week). Contributing annotations to readings for *at least 7 weeks* is necessary for full credit; more specifically, you should plan to contribute annotations to at least two weeks in each of these three week periods: 1/26, 2/2 and 2/9; 2/16, 2/23 and 3/2; 3/16, 3/23 and 3/30. 
 
 For each week you contribute annotations, add at least four notes for a given day’s reading. A full contribution goes beyond agreeing with a point or asking a question. It will engage a point, connect it to other ideas we might learn from, amend it to suggest a more limited or wider scope, note conditions under which it is more or less relevant, suggest how it might inform your project or other work of which you are aware, ask a question *and provide an initial answer*. If others have already commented on a passage and you want to address and elaborate on their  comments (beyond basic agreement), you should. Think about the kinds of things you might raise in a discussion and bring them up in the annotations. 
 
@@ -85,7 +85,7 @@ In the first half of the class, we'll work in teams, dividing up the Stepping St
 Work will include
 
 * Weekly progress, 5%: Each team will take on responsibility for a different set of metrics within the report, building a workflow to download recent measures, do any necessary pre-processing of the measures, and append them to the historical data. In addition, each team will explore key changes in the relevant local or policy environment that help contextualize the data. Finally, teams will create an R markdown file to read in the updated measures, visualize them appropriately and incorporating important context, and provide brief narration of each metric (source, importance, changes, etc.). Weekly progress targets are outlined further in the [project pages.](../projects)
-* Final code submission, 10%: Each team will submit a readable, replicable, and extendable script for data acquisition and preparation and an R markdown file that visualizes the measures you're responsible for, incorporating contextualization into the visuals where appropriate, documenting the data sources, and providing additional narrative explanation.
+* Final code submission, 12.5%: Each team will submit a readable, replicable, and extendable script for data acquisition and preparation and an R markdown file that visualizes the measures you're responsible for, incorporating contextualization into the visuals where appropriate, documenting the data sources, and providing additional narrative explanation.
 * Contribution memo, 2.5%: As part of the final submission, each member of a team will complete a contribution memo describing their own and their teammates contributions to the final project.
 
 ### Project 2: Multiple Equity Center Projects, 30%
