@@ -16,10 +16,10 @@ lessons:
     date_link: 
     read: "january-26---data-as-power-data-wrangling"
     read_label: "Data as Power, Data Wrangling"
-    material: 
-    material_link: 
-    assignment: 
-    assignment_label: 
+    material: "R Notes"
+    material_link: "week2page.html"
+    assignment: "week2assignment.html"
+    assignment_label: "Assignment 2"
 
   - title: "Racialized Data, Data Wrangling"
     date: 2023-02-02 
