@@ -46,7 +46,7 @@ Considering the power, purpose, provenance and processing of data.
 
 *Key Reading*
 
-* Tukufu Zuberi. 2003. *Thicker than Blood.* University of Minnesota Press. Introduction-Racial Statistics, Chapter 6-Challenging Race as a Variable.
+* Tukufu Zuberi. 2003. *Thicker than Blood.* University of Minnesota Press. [Introduction-Racial Statistics](https://www.jstor.org/stable/10.5749/j.cttttcnc.5), [Chapter 6-Challenging Race as a Variable](https://www.jstor.org/stable/10.5749/j.cttttcnc.14).
 * Tukufu Zuberi and Eduardo Bonilla-Silva. 2008. *White Logic, White Methods: Racism and Methodology.* Rowman & Littlefield. Chapter 7: Deracializing Social Statistics. 
 
 *Data Practice*
@@ -72,7 +72,7 @@ Considering the power, purpose, provenance and processing of data.
 *Key Reading*
 
 * Catherine D'Ignazio and Laura Klein. 2019. *Data Feminism.* MIT Press. [Chapter 3](https://data-feminism.mitpress.mit.edu/pub/5evfe9yd/release/5)
-* Abeba Birhane. 2021. "Algorithmic Injustice: A Relational Ethics Approach." *Patterns* 2(2). 
+* Abeba Birhane. 2021. ["Algorithmic Injustice: A Relational Ethics Approach."](https://www.sciencedirect.com/science/article/pii/S2666389921000155) *Patterns* 2(2). 
 
 *Data Pracice*
 
