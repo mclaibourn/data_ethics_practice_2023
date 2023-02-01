@@ -46,7 +46,7 @@ Considering the power, purpose, provenance and processing of data.
 
 *Key Reading*
 
-* Tukufu Zuberi. 2003. *Thicker than Blood.* University of Minnesota Press. Introduction: Racial Statistics, Chapter 6: Challenging Race as a Variable.
+* Tukufu Zuberi. 2003. *Thicker than Blood.* University of Minnesota Press. Introduction-Racial Statistics, Chapter 6-Challenging Race as a Variable.
 * Tukufu Zuberi and Eduardo Bonilla-Silva. 2008. *White Logic, White Methods: Racism and Methodology.* Rowman & Littlefield. Chapter 7: Deracializing Social Statistics. 
 
 *Data Practice*
@@ -58,8 +58,7 @@ Considering the power, purpose, provenance and processing of data.
 
 *Key Reading*
 
-* Catherine D'Ignazio and Laura Klein. 2019. *Data Feminism.* MIT Press. [Chapter 4](https://data-feminism.mitpress.mit.edu/pub/h1w0nbqp/release/3)
-* Kevin Guyan. 2022. *Queer Data: Using Gender, Sex and Sexuality Data for Action.* Selection TBD.
+* Kevin Guyan. 2022. *Queer Data: Using Gender, Sex and Sexuality Data for Action.* Introduction- Data and Difference, Chapter 5-Straightwashing: The cleaning and analysis of queer data.
 * Harper B. Keenan. 2022. ["Methodology as Pedagogy: Trans Lives, Social Science, and the Possibilities of Education Research."](https://doi.org/10.3102/0013189X211065740) *Educational Researcher* 51: 307–314. 
 
 *Data Practice*
