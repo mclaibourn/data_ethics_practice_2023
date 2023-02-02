@@ -26,10 +26,10 @@ lessons:
     date_link: 
     read: "february-2---racialized-data-data-wrangling"
     read_label: "Racialized Data, Data Wrangling"
-    material: 
-    material_link: 
-    assignment: 
-    assignment_label: 
+    material: "R Notes"
+    material_link: "week3page.html"
+    assignment: "week3assignment.html"
+    assignment_label: "3rd Assignment"
 
   - title: "Gendering Data, Data Wrangling and Visualization"
     date: 2023-02-09
