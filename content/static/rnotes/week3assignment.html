@@ -360,14 +360,18 @@ display: none;
 from the census using <code>tidycensus</code> – this turns out to be a
 very useful resource so I want everyone to have some experience with
 it!</p>
-<p>Start an instance of RStudio using inside your learningR folder
-(using the learningR.RProj file). Start a new script (saved in your
-scripts folder) that loads <code>tidyverse</code> and
-<code>tidycensus</code> and then does the following:</p>
+<p>The goal is to create a dataset that helps us understand the
+prevalence of children in in limited English speaking households for all
+counties in Virginia.</p>
 <ol style="list-style-type: decimal">
-<li>Runs the following code chunk to acquire estimates of the population
-of school-aged children (5 to 17) within each county/locality in
-Virginia from the ACS 2017-2021 survey.</li>
+<li><p>Start an instance of RStudio using the project file inside your
+learningR folder. Start a new script (saved in your scripts folder) that
+loads <code>tidyverse</code> and <code>tidycensus</code> and then does
+the following:</p></li>
+<li><p>Run the following code chunk to acquire estimates of the
+population of school-aged children (5 to 17) within each county/locality
+in Virginia from the ACS 2017-2021 survey. This will provide a
+denominator so you can generate a percent later.</p></li>
 </ol>
 <pre class="r"><code>popvars &lt;- c(b59 = &quot;B01001_004&quot;,
              b1014 = &quot;B01001_005&quot;,
@@ -387,12 +391,13 @@ pop517 &lt;- pop517 %&gt;%
   group_by(GEOID, NAME) %&gt;% 
   summarize(pop517 = sum(estimate)) %&gt;% 
   ungroup()</code></pre>
-<ol start="2" style="list-style-type: decimal">
-<li>Now write your own code to download data from <a href="https://data.census.gov/table?q=b16003&amp;g=0400000US51$0500000&amp;tid=ACSDT5Y2021.B16003">Table
+<ol start="3" style="list-style-type: decimal">
+<li><p>Now write your own code to download data from <a href="https://data.census.gov/table?q=b16003&amp;g=0400000US51$0500000&amp;tid=ACSDT5Y2021.B16003">Table
 B16003</a> on the number of children aged 5 to 17 in limited English
 speaking households for all counties in Virginia from the ACS 2017-2021
 survey. It might help you to have a look at the table before hand
-(linked above) and to scan the explanation of this set of tables at <a href="https://censusreporter.org/topics/language/">Census Reporter</a>.
+(linked above) and to scan the explanation of this set of tables at <a href="https://censusreporter.org/topics/language/">Census
+Reporter</a>.</p>
 <ul>
 <li>Specifically, download the number who speak only English at home,
 the number who speak Spanish at home, the number who speak another
@@ -402,63 +407,66 @@ home.</li>
 <li>The command
 <code>detail_vars &lt;- load_variables(2021, &quot;acs5&quot;, cache = TRUE)</code>
 will load a list of variables in the ACS as a data frame. You can
-<code>View()</code> the data frame and search for the B16003 variables
-to find specific cell names. I would definitely start by creating a
+<code>View()</code> the data frame and search for the B16003 variable
+IDs to find specific cell names. I would definitely start by creating a
 vector of variables to pull.</li>
 <li>You don’t need to specify any counties; the default will be for all
-counites in a state if you ask for the county geography.</li>
+counties in a state if you ask for the county geography.</li>
 <li>Use the argument <code>output = &quot;tidy&quot;</code> as in the population
 code chunk above.</li>
 </ul></li>
-<li>Get familiar with the newly downloaded data sets with some
+<li><p>Get familiar with both newly downloaded data sets with some
 combination of glimpse or str, head or tail, and summary. What’s the
-smallest number of children aged 5-17 in a county? The largest?</li>
-<li>Join the population data to your language data with the following
-command (change <code>df</code> to the name of your data frame):</li>
+smallest number of children aged 5-17 in a county? The largest?</p></li>
+<li><p>Create a new data frame that sums up the number of children in
+households across all language categoried provided (that is, generate
+the total number of children in each county in limited Enlish speaking
+households using the data you’ve already pulled).</p></li>
+<li><p>Join the population data to both of your language data sets (the
+one containing the totals and the one disaggregating by language
+categories) with the following command (change <code>df</code> to the
+names of your data frames):</p></li>
 </ol>
 <pre class="r"><code>df &lt;- df %&gt;% 
   left_join(pop517)</code></pre>
-<p>Then generate a new variable called percent that is the percent of
-children in a county that in a limited English speaking household and
-that speak primarily any of the aggregated languages provided (as these
-are all in the same column, this should only require one command).</p>
-<ol start="5" style="list-style-type: decimal">
-<li><p>Practice using the dplyr functions filter, select, arrange, and
-count. a. Write code that prints only the datat for Charlottesville and
-Albemarle to the console. What do you notice? b. Generate a new data
-frame that contains only the observations for the number of children in
-limited English speaking households. (Hint: this should be whatever you
-called the values in B16003_002 in the <code>get_acs()</code> function.)
-c. Write code that arranges this new data set by the percent of children
-in limited English speaking homes from highest to lowest and prints the
-first 10 observations to the console. What place has the highest
-percent? d. Write code that counts how many localities in Virginia where
-5% or more of the children aged 5-17 are in limited Enlish speaking
-households</p></li>
-<li><p>Practice using dplyr functions mutate, group_by, summarize and
-filter.</p>
+<ol start="7" style="list-style-type: decimal">
+<li><p>For both data sets (the one containing totals for all counties
+and the one containing the number in each language category for all
+countes) generate a new variable called percent that is the percent of
+children in a county in a limited English speaking household/specific
+language speaking household.</p></li>
+<li><p>Practice using the dplyr functions to explore the data containing
+the total number of children in any non-English speaking household.</p>
 <ol style="list-style-type: lower-alpha">
-<li>Generate a new data frame that contains the observations for the
-number of children in limited English speaking households who speak only
-English at home, speak Spanish at home, speak another Indo-European
-language at home, speak an Asian or Pacific Island language at home, or
-speak some other language at home (that is, everything but the total
-number of children in limited English speaking households).</li>
+<li>Write code that prints only the data for Charlottesville and
+Albemarle to the console for . What do you notice?</li>
+<li>Write code that arranges the data set by the percent of children in
+limited English speaking homes from highest to lowest and prints the
+first 10 observations to the console. What place has the highest
+percent?</li>
+<li>Write code that counts how many localities in Virginia have 5% or
+more of the children aged 5-17 in limited Enlish speaking
+households.</li>
+</ol></li>
+<li><p>Practice using dplyr functions to explore the data containing the
+numbero f children in non-English speaking households by language
+group.</p>
+<ol style="list-style-type: lower-alpha">
 <li>Write code that tells us the minimum, mean, and maximum percent of
 children speaking each of the given categories of languages across the
 Virginia counties.</li>
 <li>This one’s a bit harder… write code that (1) groups by county, then
 (2) creates a variable this is the maximum value of the percent variable
-within each county (this will identify the primary language group spoken
-by school-aged children in that county), then (3) ungroups the data
-frame, then (4) filters the observations to keep those for which the
-maximum value of the percent you just created is not zero (these are
-cases with no children in limited English speaking households) and the
-maximum value of the percent equals the value in the percent column
-(this keeps only the most frequently spoken language group), then (4)
-counts the frequency of the language groups (defined in the variable
-called <code>variable</code>, unless you changed the column name along
-the way).</li>
+within each county (this will identify the primary non-English language
+group spoken by school-aged children in that county, if any), then (3)
+ungroups the data frame, then (4) filters the observations to keep those
+for which the maximum value of the percent you just created is not zero
+(these are cases with no children in limited English speaking
+households) AND for which the maximum value of the percent equals the
+value in the percent column (this keeps only the most frequently spoken
+language group), then (4) counts the frequency of the language groups
+(defined in the variable called <code>variable</code>, unless you
+changed the column name along the way).</li>
 </ol></li>
 </ol>
 <p>Save the script into the scripts folder of your learningR folder.
