@@ -36,10 +36,10 @@ lessons:
     date_link: 
     read: "february-9---gendering-data-data-wrangling-and-visualization"
     read_label: "Gendering Data, Data Wrangling and Visualization"
-    material: 
-    material_link: 
-    assignment: 
-    assignment_label: 
+    material: "R Notes"
+    material_link: "week4page.html"
+    assignment: "week4assignment.html"
+    assignment_label: "Assignment IV"
 
   - title: "Relations in/to Data, Data Visualization"
     date: 2023-02-16
