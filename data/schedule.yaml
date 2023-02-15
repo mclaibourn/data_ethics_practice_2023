@@ -49,7 +49,7 @@ lessons:
     material: "R Notes"
     material_link: "week5page.html"
     assignment: "week5assignment.html"
-    assignment_label: "Fifth Assignment"
+    assignment_label: "Assignment E"
 
   - title: "Data and Harm, Data Visualization"
     date: 2023-02-23
