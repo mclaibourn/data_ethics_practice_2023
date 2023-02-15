@@ -46,10 +46,10 @@ lessons:
     date_link: 
     read: "february-16---relations-in-to-data-data-visualization"
     read_label: "Relations in/to Data, Data Visualization"
-    material: 
-    material_link: 
-    assignment: 
-    assignment_label: 
+    material: "R Notes"
+    material_link: "week5page.html"
+    assignment: "week5assignment.html"
+    assignment_label: "Fifth Assignment"
 
   - title: "Data and Harm, Data Visualization"
     date: 2023-02-23
@@ -61,11 +61,11 @@ lessons:
     assignment: 
     assignment_label: 
     
-  - title: "Communicating Data, Wrapping Up"
+  - title: "Stepping Stones Wrap Up"
     date: 2023-03-02
     date_link: 
-    read: "march-2---communicating-data-wrapping-up"
-    read_label: "Communicating Data, Wrapping Up"
+    read: "march-2---stepping-stones-wrap-up"
+    read_label: "Stepping Stones Wrap Up"
     material: 
     material_link: 
 
@@ -104,8 +104,8 @@ lessons:
   - title: "Project Progress, Data Visualization"
     date: 2023-04-13
     date_link: 
-    read: "april-13---project-progress-data-visualization"
-    read_label: "Project Progress, Data Visualization"
+    read: "april-13---project-progress-data-communication"
+    read_label: "Project Progress, Data Communication"
     material: 
     material_link: 
 

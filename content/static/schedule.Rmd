@@ -93,15 +93,7 @@ Considering the power, purpose, provenance and processing of data.
 * Hadley Wickham and Garrett Grolemund. 2017. *R for Data Science.* O’Reilly. [Chapter 28](https://r4ds.had.co.nz/graphics-for-communication.html)
 * Rafael A. Irizarry. 2021. *Introduction to Data Science.* [Chapter 11](http://rafalab.dfci.harvard.edu/dsbook/data-visualization-principles.html)
 
-
-## March 2 - Communicating Data, Wrapping Up
-
-*Key Reading*
-
-* Rebecca C. Hetey and Jennifer L. Eberhardt. 2018. "[The Numbers Don’t Speak for Themselves: Racial Disparities and the Persistence of Inequality in the Criminal Justice System.](https://doi.org/10.1177/0963721418763931)" *Current Directions in Psychological Science* 27: 183–187.
-* Allison L. Skinner-Dorkenoo, Apoorva Sarmal, Kasheena G. Rogbeer, Chloe J. Andr ́e, Bhumi Patea, Leah Cha. 2022. “[Highlighting COVID-19 Racial Disparities Can Reduce Support for Safety Precautions among White U.S. Residents.](https://www.sciencedirect.com/science/article/pii/S027795362200257X?via%3Dihub)” *Social Science & Medicine* 301: 1-8.
-
-
+## March 2 - Stepping Stones Wrap Up
 
 ## March 9 - Spring Break!
 
@@ -155,7 +147,12 @@ Considering the power, purpose, provenance and processing of data.
 * Yihui Xie, J. J. Allaire, Garrett Grolemund. 2022. *R Markdown: The Definitive Guide.* [Chapter 3.1 - HTML Documents](https://bookdown.org/yihui/rmarkdown/html-document.html)
 
 
-## April 13 - Project Progress, Data Visualization
+## April 13 - Project Progress, Data Communication
+
+*Key Reading*
+
+* Rebecca C. Hetey and Jennifer L. Eberhardt. 2018. "[The Numbers Don’t Speak for Themselves: Racial Disparities and the Persistence of Inequality in the Criminal Justice System.](https://doi.org/10.1177/0963721418763931)" *Current Directions in Psychological Science* 27: 183–187.
+* Allison L. Skinner-Dorkenoo, Apoorva Sarmal, Kasheena G. Rogbeer, Chloe J. Andr ́e, Bhumi Patea, Leah Cha. 2022. “[Highlighting COVID-19 Racial Disparities Can Reduce Support for Safety Precautions among White U.S. Residents.](https://www.sciencedirect.com/science/article/pii/S027795362200257X?via%3Dihub)” *Social Science & Medicine* 301: 1-8.
 
 *Data Practice*
 
