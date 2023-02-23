@@ -1,0 +1,13 @@
+---
+title: "Contribution Memo"
+output: html_document
+---
+
+Working with others is both rewarding and challenging and it's valuable to spend some time reflecting on the strengths and difficulties of our collaborative efforts. At the end of each team project, you'll submit a brief (1 or 2 pages) contribution memo reflecting on the past weeks' work. 
+
+In the memo, you'll describe your own and each team members' contributions to the collective work. There are many ways of contributing. In the syllabus I noted
+
+> Good data-oriented work comes from the collaboration of people with diverse talents, perspectives, and expertise. We need individuals interested in data wrangling and analysis, working in R, and visualizing data effectively; but we also need contributors with an understanding or interest in the various topics, who can ask probing questions and think creatively; and members who can help teams work better and keep projects moving, who can dig into a new substantive area to synthesize information, and who can communicate about our work effectively and help us convey people-centered stories and explanations.
+
+Think broadly. Some folks are great at making things work in R, or reviewing others' work and catching errors. Some of us are extremely organized and help keep the team on track. Some members are especially talented at helping everyone be heard. Some of us are better writers or editors or discoverers of new information. In short, we may be in different places in our journeys around this work, but we all bring  strengths. Take a moment to describe contributions and strengths across the weeks of work as well as efforts for which you felt the work was more isolated than you'd like or where you felt you could have done more.
+

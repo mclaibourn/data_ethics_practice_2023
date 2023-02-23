@@ -26,6 +26,7 @@ On February 9, leaders in the City's Department of Human Services will visit to 
 * Week 5 (due by class Feb 23): Teams (a) continue outlining policy context, purpose of, and documentation for variables 1, 2, and 3 along previously collected measures; (b) update and complete code for acquiring and processing third measure in their set; (c) create an initial R markdown file that weaves narration of metrics collected to date with visualization and documentation; and (d) write code that seeks to acquire the fourth measure in their set, reviewing city excel file for background and issues.
 
 * Week 6 (due by class Mar 2): Teams (a) finalize data acquisition and processing scripts for all four variables; (b) update and improve R markdown file to read in all metrics, visualize them, incorporate relevant policy context or changes, explain and document. Teams will briefly share/show the knitted markdown files in class.
+* Post Project (due by Mar 16): Individuals submit a [contribution memo](../contribution/) to me.
 
 **Once complete, we'll add all files to Equity Center GitHub and the html report files to the class webpage.** 
 
@@ -52,5 +53,6 @@ The timelines of these projects will vary more widely as the projects prgress, b
 * Week 6 (due by class Apr 20): In addition to updates to data preparation scripts and analysis/presentation R markdown files, teams submit brief reviews of newly suggested materials.
 * Week 7 (due by class Apr 27): In addition to updates to data preparation scripts and analysis/presentation R markdown files, teams use R markdown files to present (almost) final work to class.
 * Week 8 (due by May 4, in lieu of a final): Finalizing everything! R scripts to download, process and wrangle data and R markdown and knitted html files to analyze, visualize, and interpret data.
+* Post Project (duy by May 4): Individuals submit a [contribution memo](../contribution/) to me.
 
 **Once complete, we'll add all files to Equity Center GitHub and the html report files to the class webpage.** 
