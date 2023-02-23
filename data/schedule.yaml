@@ -58,8 +58,8 @@ lessons:
     read_label: "Data and Harm, Data Visualization"
     material: 
     material_link: 
-    assignment: 
-    assignment_label: 
+    assignment: "week6assignment.html"
+    assignment_label: "Final Pre-Break Assignment"
     
   - title: "Stepping Stones Wrap Up"
     date: 2023-03-02
