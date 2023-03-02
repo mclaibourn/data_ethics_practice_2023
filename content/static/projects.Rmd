@@ -32,7 +32,7 @@ On February 9, leaders in the City's Department of Human Services will visit to 
 
 ## Project 2: Multiple Equity Center Projects
 
-In the second half of the semester, we'll divide up into new teams each working on a different project hosted by The Equity Center. These include projects centered on
+In the second half of the semester, we'll divide up into new teams each working on a different project hosted by The Equity Center, including
 
 * Court fees in eviction cases, based on Virginia Civil Court data
 * Police stops, based on the Virginia Community Policy Act data collection
