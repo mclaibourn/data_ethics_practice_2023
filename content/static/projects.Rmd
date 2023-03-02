@@ -39,13 +39,12 @@ In the second half of the semester, we'll divide up into new teams each working 
 * Local rental markets, based on local tax assessment data
 * Humanizing the Orange Dot report, using using American Community Survey public-use microdata to build family profiles
 * Stepping Stones supplement, looking at racially disaggregated measures
-* And one more we're still pinning down (if we need it)
 
 ### Project Schedule
 
-The timelines of these projects will vary more widely as the projects prgress, but a few key targets for all teams will include
+The timelines of these projects will vary more widely as the projects progress, but a few key targets for all teams will include
 
-* Week 1 (due by midnight Mar 15): Individuals read through the brief project scoping documents (TBA) and, on a shared project sheet, identify their top choices for projects they'd like to work on. We'll form into teams during class on Mar 16.
+* Week 1 (due by class Mar 16): Individuals read through the brief project scoping documents and think about what project they'd like to work on. We'll form into teams during class.
 * Week 2 (due by class Mar 23): Teams (a) generate an initial R script to download, read in, and explore primary data and (b) submit an initial list of at least three relevant citations to review -- these might be research articles, think tank reports, book chapters, news articles, websites, or something else.
 * Week 3 (due by class Mar 30): Teams (a) revise the script to wrangle project data and continue data exploration and (b) submit brief reviews of previously suggested materials.
 * Week 4 (due by class Apr 6): Teams (a) generate initial R markdown file to share for peer feedback, including description of question, of available data, explorations of processed data, narrative and ideas drawn from initial literature review, and anything else that makes sense at this time. Teams will pair up in class to present to one another and provide thoughtful feedback.

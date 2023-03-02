@@ -68,6 +68,8 @@ lessons:
     read_label: "Stepping Stones Wrap Up"
     material: 
     material_link: 
+    assignment: "week7assignment.html"
+    assignment_label: "Post-Break Assignment"
 
   - title: "Data Processes, Data Wrangling"
     date: 2023-03-16
