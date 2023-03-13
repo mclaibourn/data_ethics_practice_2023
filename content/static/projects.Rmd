@@ -9,26 +9,17 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Project 1: Stepping Stones Report
 
-In the first half of the semester, while we're learning more about R, reproducible data workflows, and ethical data practices, we'll contribute to work for the City of Charlottesville to expand and enrich a community ["Stepping Stones" report](https://www.charlottesville.gov/1623/Stepping-Stones-Report), a collection of 39 metrics to gauge well-being in Charlottesville and Albemarle. Working in teams, we'll divide up the metrics and build scripts to download updated measures, process them and combine them with the past data series, visualize and better contextualize changes over time. If we do our work well, it will make future iterations of this report easier to generate.
+In the first half of the semester, while learning more about R, reproducible data workflows, and ethical data practices, we began contributing to work for the City of Charlottesville to expand and enrich a community ["Stepping Stones" report](https://www.charlottesville.gov/1623/Stepping-Stones-Report), a collection of 39 metrics to gauge well-being in Charlottesville and Albemarle. Working in teams, we divided up the metrics and built scripts to download updated measures, process the data, visualize the trends, and better contextualize changes over time. All our code and the resulting data are available on a [GitHub repository](https://github.com/virginiaequitycenter/stepping-stones/); this will make future iterations of the report easier to generaten and provide a starting point to expand to other localities.
 
-### Project Schedule
+Our work-to-date can be reviewed in the following team reports:
 
-On February 9, leaders in the City's Department of Human Services will visit to give us some background and context for the Stepping Stones report.
+* [Team 1 report](../projects/team1report.html): Math SOLs, High school degree attainment, School reports of physical violence, Students identified as economically disadvantaged, Children in foster care, Adults experiencing homelessness
+* [Team 2](../projects/team2report.html): Students with limited English, Homeowner burden, School reports of alcohol and drug offenses, Child abuse and neglect assessments/investigations, Mothers with access to prenatal care, Reading SOLs
+* [Team 4](../projects/team4report.html): On-time high school graduation rates, Children living with two parents, School suspensions, Children in need of supervision, Juvenile arrests for crimes against persons, Mothers with no or late access to prenatal care 
+* [Team 5](../projects/team5report.html): Children living below poverty, Per capita income, Youth labor force participation and unemployment, Kindergartners identified for reading intervention, School division average daily attendance, Births to mothers with less than a 12th grade education, Sexually transmitted infections in youth (awaiting data transfer) 
+* [Team 6](../projects/team6report.html): Divorce rate, Voter registration, Births to mothers with less than a 12th grade education, Rental burden, School reports of weapons possession, Juvenile delinquency judgments, Arrests for underage alcohol offenses
 
-* Week 1 (due by class Jan 26): Individuals skim through the most recent [Stepping Stones Report](https://www.charlottesville.gov/1623/Stepping-Stones-Report). We'll form into teams during class on Jan 26; each team is responsible for a collection of five measures, along with two or three that I will have acquired.
-
-* Week 2 (due by class Feb 2): Teams (a) start outlining purpose and policy contexts for two previously collected measures; (b) write an initial R script to download the first measure in their set and review city excel file for background and issues; and (c) begin work on request for measure not available online (e.g., identify who to contact, draft an email; don't send yet - some teams may need to coordinate).
-
-* Week 3 (due by class Feb 9): Teams (a) continue outlining policy context, explanation of, and documentation for variable 1 along with previously collected measures; (b) update and complete code for acquiring and preparing the first measure in their set; and (c) write code that seeks to acquire the second measure in their set, reviewing city excel file for background and issues.
-
-* Week 4 (due by class Feb 16): Teams (a) continue outlining policy context, justification of, and documentation for variables 1 and 2 along previously collected measures; (b) update and complete code for acquiring and processing second measure in their set; (c) begin some initial visualizations of the measures that have been acquired; and (d) write code that seeks to acquire the third measure in their set, reviewing city excel file for background and issues.
-
-* Week 5 (due by class Feb 23): Teams (a) continue outlining policy context, purpose of, and documentation for variables 1, 2, and 3 along previously collected measures; (b) update and complete code for acquiring and processing third measure in their set; (c) create an initial R markdown file that weaves narration of metrics collected to date with visualization and documentation; and (d) write code that seeks to acquire the fourth measure in their set, reviewing city excel file for background and issues.
-
-* Week 6 (due by class Mar 2): Teams (a) finalize data acquisition and processing scripts for all four variables; (b) update and improve R markdown file to read in all metrics, visualize them, incorporate relevant policy context or changes, explain and document. Teams will briefly share/show the knitted markdown files in class.
-* Post Project (due by Mar 16): Individuals submit a [contribution memo](../contribution/) to me.
-
-**Once complete, we'll add all files to Equity Center GitHub and the html report files to the class webpage.** 
+The Equity Center at UVA will be continuing this work to compile the updated metrics into a single report in collaboration with the City's Department of Human Services.
 
 ## Project 2: Multiple Equity Center Projects
 
