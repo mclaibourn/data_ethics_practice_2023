@@ -9,15 +9,15 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Project 1: Stepping Stones Report
 
-In the first half of the semester, while learning more about R, reproducible data workflows, and ethical data practices, we began contributing to work for the City of Charlottesville to expand and enrich a community ["Stepping Stones" report](https://www.charlottesville.gov/1623/Stepping-Stones-Report), a collection of 39 metrics to gauge well-being in Charlottesville and Albemarle. Working in teams, we divided up the metrics and built scripts to download updated measures, process the data, visualize the trends, and better contextualize changes over time. All our code and the resulting data are available on a [GitHub repository](https://github.com/virginiaequitycenter/stepping-stones/); this will make future iterations of the report easier to generaten and provide a starting point to expand to other localities.
+In the first half of the semester, while learning more about R, reproducible data workflows, and ethical data practices, we began contributing to work for the City of Charlottesville to expand and enrich a community ["Stepping Stones" report](https://www.charlottesville.gov/1623/Stepping-Stones-Report), a collection of 39 metrics to gauge well-being in Charlottesville and Albemarle. Working in teams, we divided up the metrics and built scripts to download updated measures and validate prior data, process and prepare the data, visualize the trends, and better contextualize changes over time. All our code and the resulting data are available on a [GitHub repository](https://github.com/virginiaequitycenter/stepping-stones/); this will make future iterations of the report easier to generate and serves as a potential resource to expand to other localities.
 
 Our work-to-date can be reviewed in the following team reports:
 
 * [Team 1 report](../projects/team1report.html): Math SOLs, High school degree attainment, School reports of physical violence, Students identified as economically disadvantaged, Children in foster care, Adults experiencing homelessness
-* [Team 2](../projects/team2report.html): Students with limited English, Homeowner burden, School reports of alcohol and drug offenses, Child abuse and neglect assessments/investigations, Mothers with access to prenatal care, Reading SOLs
-* [Team 4](../projects/team4report.html): On-time high school graduation rates, Children living with two parents, School suspensions, Children in need of supervision, Juvenile arrests for crimes against persons, Mothers with no or late access to prenatal care 
-* [Team 5](../projects/team5report.html): Children living below poverty, Per capita income, Youth labor force participation and unemployment, Kindergartners identified for reading intervention, School division average daily attendance, Births to mothers with less than a 12th grade education, Sexually transmitted infections in youth (awaiting data transfer) 
-* [Team 6](../projects/team6report.html): Divorce rate, Voter registration, Births to mothers with less than a 12th grade education, Rental burden, School reports of weapons possession, Juvenile delinquency judgments, Arrests for underage alcohol offenses
+* [Team 2 report](../projects/team2report.html): Students with limited English, Homeowner burden, School reports of alcohol and drug offenses, Child abuse and neglect assessments/investigations, Mothers with access to prenatal care, Reading SOLs
+* [Team 4 report](../projects/team4report.html): On-time high school graduation rates, Children living with two parents, School suspensions, Children in need of supervision, Juvenile arrests for crimes against persons, Mothers with no or late access to prenatal care 
+* [Team 5 report](../projects/team5report.html): Children living below poverty, Per capita income, Youth labor force participation and unemployment, Kindergartners identified for reading intervention, School division average daily attendance, Births to mothers with less than a 12th grade education, Sexually transmitted infections in youth (awaiting data transfer) 
+* [Team 6 report](../projects/team6report.html): Divorce rate, Voter registration, Births to mothers with less than a 12th grade education, Rental burden, School reports of weapons possession, Juvenile delinquency judgments, Arrests for underage alcohol offenses
 
 The Equity Center at UVA will be continuing this work to compile the updated metrics into a single report in collaboration with the City's Department of Human Services.
 
@@ -29,7 +29,7 @@ In the second half of the semester, we'll divide up into new teams each working 
 * Police stops, based on the Virginia Community Policy Act data collection
 * Local rental markets, based on local tax assessment data
 * Humanizing the Orange Dot report, using using American Community Survey public-use microdata to build family profiles
-* Stepping Stones supplement, looking at racially disaggregated measures
+* Stepping Stones supplement, looking at racially disaggregated data
 
 ### Project Schedule
 
