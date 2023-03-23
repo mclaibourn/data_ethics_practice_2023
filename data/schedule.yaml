@@ -84,8 +84,9 @@ lessons:
     date_link: 
     read: "march-23---data-practices-data-tables"
     read_label: "Data Practices, Data Tables"
-    material: 
-    material_link: 
+    material: "R Notes"
+    material_link: "week9page.html"
+    assignment_label: "Project Exploration, 3 Resources"
 
   - title: "Countermapping, Spatial Data"
     date: 2023-03-30
@@ -94,6 +95,7 @@ lessons:
     read_label: "Countermapping, Spatial Data"
     material: 
     material_link: 
+    assignment_label: "Project progress, Resource review"
 
   - title: "Project Peer Review, R Markdown"
     date: 2023-04-06
@@ -102,6 +104,7 @@ lessons:
     read_label: "Project Peer Review, R Markdown"
     material: 
     material_link: 
+    assignment_label: "R Markdown for peer review"
 
   - title: "Project Progress, Data Visualization"
     date: 2023-04-13
@@ -110,6 +113,7 @@ lessons:
     read_label: "Project Progress, Data Communication"
     material: 
     material_link: 
+    assignment_label: "Project progress, 3 resources"
 
   - title: "Project Progress, Data Visualization"
     date: 2023-04-20
@@ -118,6 +122,7 @@ lessons:
     read_label: "Project Progress, Data Visualization"
     material: 
     material_link: 
+    assignment_label: "Project progress, Resource review"
 
   - title: "Project Presentations"
     date: 2023-04-27
@@ -126,3 +131,5 @@ lessons:
     read_label: "Project Presentations"
     material: 
     material_link: 
+    assignment_label: "R Markdown for presentation"
+
