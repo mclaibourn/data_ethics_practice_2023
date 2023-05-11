@@ -43,6 +43,8 @@ This work is informed by a community advisory committee with members from the Le
 
 A member of the advisory committee asked if we could look into changes in attorney fees in eviction cases. They've noticed some law firms representing landlords advising them to insert a clause into leases asserting that tenants agree that, in the event of an eviction case, 25% of the costs being sought will be deemed a reasonable attorney fee. Do we see any increases in attorney fees being awarded in eviction cases overall, or if changes are evident among cases where landlords are represented by specific firms?
 
+* [Jayla Hart and Fara Islam](../projects/Richmond-Eviction-Fees.html)
+* [Mary Katherine West and Vani Agarwal](../projects/CvilleRegion-Eviction-Fees.html)
 * [Katherine Driebe and Amruta Binoy](https://commpaslab.shinyapps.io/Eviction-Fees-App/)
 
 ### Understanding the Local Rental Landscape 
