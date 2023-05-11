@@ -56,3 +56,4 @@ In lieu of an authoritative list, we began exploring the use of open property an
 
 * [Prior work, with  PhD Plus PostDoc 
 Hanna Charankevich](https://github.com/virginiaequitycenter/rental-database/blob/main/cville_rental_property_map.png)
+* [Connor Eads, Maria Morrissey, and Somin Lee](../projects/cville_rental_market.html)
