@@ -34,6 +34,7 @@ Beginning in July 2020, all law enforcement agencies were required to [collect d
 
 We began exploring and analyzing this data:
 
+* [Owayne Owens, Lily Slonim & Ramya Tella](../projects/Police_Stops.html)
 * [Charlie Bruce, Lekha Meheddy & Melinda Wong](https://melindajwong.shinyapps.io/community_policing_final/)
 
 ### Attorney Fees in Evictions
