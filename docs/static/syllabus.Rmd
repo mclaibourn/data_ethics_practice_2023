@@ -19,34 +19,35 @@ This course is intended to provide students experience with data science within 
 * Practice working with real data (that is, messy data resulting from policy administration) to answer pressing questions with attention to the moral and ethical implications of our work. This includes finding, cleaning, and understanding data; exploring, analyzing, modeling data; visualizing, contextualizing, and communicating data; with care and humility and respect for the affected partners and communities throughout.
 * Develop experience in data workflows that support ethical data science, including processes for working collaboratively, openly, inclusively, and reproducibly.
 
-## Spring 20223 Projects
+## Spring 2023 Projects
 This spring, we'll complete two projects. 
 
 ### Project 1: Stepping Stones Report
-In the first half of the semester, while we're learning more about R, reproducible data workflows, and ethical data practices, we'll contribute to work for the City of Charlottesville to expand and enrich a community "Stepping Stones" report, a collection of 39 metrics to gauge well-being in Charlottesville and Albemarle. Working in teams, we'll divide up the metrics and build scripts to download updated measures, process them and combine them with the past data series, visualize and better contextualize changes over time. If we do our work well, it will make future iterations of this report easier to generate.
+In the first half of the semester, while we're learning more about R, reproducible data workflows, and ethical data practices, we'll contribute to work for the City of Charlottesville to update and enrich a community "Stepping Stones" report, a collection of 39 metrics to gauge well-being in Charlottesville and Albemarle. Working in teams, we'll divide up the metrics and build scripts to download updated measures, process them and combine them with the past data series, visualize and better contextualize changes over time. If we do our work well, it will make future iterations of this report more transparent and easier to generate, as well as provide additional contextualization and explanation for the metrics.
 
 ### Project 2: Multiple Equity Center Projects
 In the second half of the semester, we'll divide up into new teams each working on a different project hosted by The Equity Center. These include projects centered on
 
-* Eviction filings, based on Virginia Civil Court data
+* Court fees in eviction cases, based on Virginia Civil Court data
 * Police stops, based on the Virginia Community Policy Act data collection
 * Local rental markets, based on local tax assessment data
-* Humanizing data, expanding the Orange Dot report with household profiles using American Community Survey public-use microdata
-* A few others we're still sussing out
+* Humanizing the Orange Dot report, using using American Community Survey public-use microdata to build family profiles
+* Stepping Stones supplement, looking at racially disaggregated measures
+* And one more we're still pinning down
 
 
 ## How We'll Work
 
-In this class, we’ll be learning how to use data to answer important and public-minded questions with an emphasis on justice and equity. You don’t need to be an expert in statistics or R or visualization or coding coming in; the projects and assignments will provide opportunities to develop these skills further. Good data-oriented work comes from the collaboration of people with diverse talents, perspectives, and expertise. We need individuals interested in data wrangling and analysis, working in R, and visualizing data effectively; but we also need contributors with an understanding or interest in the various project topics, who can ask probing questions and think creatively; and members who can help teams work better and keep projects moving, who can dig into a new substantive area to synthesize information, and who can communicate about our work effectively and help us convey people-centered stories and explanations. That doesn’t mean everyone won’t be responsible for learning about and contributing to each step of the project, but you may find that at some points you are more of a learner and at other points you are more of a leader.
+In this class, we’ll be learning how to use data to answer public-minded questions with an emphasis on justice and equity. You don’t need to be an expert in statistics or R or visualization or coding coming in; the projects and assignments will provide opportunities to develop these skills further. Good data-oriented work comes from the collaboration of people with diverse talents, perspectives, and expertise. We need individuals interested in data wrangling and analysis, working in R, and visualizing data effectively; but we also need contributors with an understanding or interest in the various project topics, who can ask probing questions and think creatively; and members who can help teams work better and keep projects moving, who can dig into a new substantive area to synthesize information, and who can communicate about our work effectively and help us convey people-centered stories and explanations. That doesn’t mean everyone won’t be responsible for learning about and contributing to each step of the project, but you may find that at some points you are more of a learner and at other points you are more of a leader.
 
 ### R, RStudio
 We will be using the programming language R for our data work. R is a free, open-source language (`r emo::ji("smile")`) most commonly used with RStudio, a free user interface (`r emo::ji("heart")`). R users are an amazing bunch and have generated a variety of free learning resources on which we’ll rely (`r emo::ji("tada")`). 
 
-[Instructions for installing R, RStudio, and all the tidyverse packages.](../install/).
+[Instructions for installing R, RStudio, and all the tidyverse packages.](../install/)
 
 
 ### Materials
-As part of our ethic, we'll center free resources and materials licensed by the library for our use. Consequently, all reading materials will be available at no cost. Data practice resources and references are online; readings on data ethics and power will be made available on Perusall and Canvas (though many of these are also available online). 
+As part of our ethic, we'll center free resources and materials licensed by the library for our use. Consequently, all reading materials will be available at no cost. Data practice resources and references are online; readings on data ethics and power will be made available on Perusall (and many of these are also available online). 
 
 ### Getting Help and the Class Slack
 Computers are stupid which can make programming hard. Any little error -- a small typo, a missed closing parentheses -- can cause inordinate pain (especially if you're tired). Some of that is unavoidable when learning a new language. But don't beat your head against the wall when you get stuck. Seek help!
@@ -57,21 +58,21 @@ First, we have a class chatroom at Slack where anyone in the class can ask quest
 
 There are many online resources. Two of the most useful are [StackOverflow](https://stackoverflow.com/) (a Q&A site with hundreds of thousands of answers to all sorts of programming questions) and [RStudio Community](https://community.rstudio.com/) (a forum specifically designed for people using RStudio).
 
-The UVA Library also an amazing team of consultants in the [StatLab](https://data.library.virginia.edu/statlab/). They've got online how-tos you might find useful (including this one on [how to ask reproducible questions on StackOverflow or the RStudio Community](https://data.library.virginia.edu/ask-better-code-questions-and-get-better-answers-with-reprex/)) and you can email them at [statlab@virginia.edu](mailto:statlab@virginia.edu) to set up a consultation (you shouldn't use them for your problem sets, but they're a great resource if you're looking for help on the final visualization or after our class is done).
+The UVA Library also an amazing team of consultants in the [StatLab](https://data.library.virginia.edu/statlab/). They've got online how-tos you might find useful (including this one on [how to ask reproducible questions on StackOverflow or the RStudio Community](https://data.library.virginia.edu/ask-better-code-questions-and-get-better-answers-with-reprex/)) and you can email them at [statlab@virginia.edu](mailto:statlab@virginia.edu) to set up a consultation (you shouldn't use them for your problem sets, but they're a great resource if you're looking for help on the troubleshooting your project analysis or after our class is done).
 
 
 ## How We'll Evaluate Our Work
 Grades will depend on your learning and contribution to our collective effort, which will be assessed by a combination of individual and team-based work.
 
 ### Reading Annotations, 20%
-To facilitate understanding and discussion we’ll all contribute to collaborative annotation and commenting on the substantive reading using Perusall. I will review these ahead of class to help organize our discussion. 
+To facilitate understanding and discussion we’ll all contribute to collaborative annotation and commenting on the *key reading* (the data ethics content) using Perusall. I will review these ahead of class to help organize our discussion; which means these are due by 2pm on Thursdays. 
 
-We have reading assigned on 9 out of 13 weeks (minus the first week). Contributing annotations to readings for at least 7 weeks is necessary for full credit; more specifically, you should plan to contribute annotations to at least two weeks in each of the three week periods: 1/26, 2/2 and 2/9; 2/16, 2/23 and 3/2; 3/16, 3/23 and 3/30. 
+We have reading assigned on nine out of 13 weeks (minus the first week). Contributing annotations to readings for *at least 7 weeks* is necessary for full credit; more specifically, you should plan to contribute annotations to at least two weeks in each of these three week periods: 1/26, 2/2 and 2/9; 2/16, 2/23 and 3/2; 3/16, 3/23 and 3/30. 
 
-For each week you contribution annotations, make at least four full contributions for a given day’s reading. A full contribution goes beyond agreeing with a point or asking a question. It will engage a point, connect it to other ideas we might learn from, amend it to suggest a more limited or wider scope, note conditions under which it is more or less relevant, suggest how it might inform your project or other work of which you are aware, ask a question *and provide an initial answer*. If others have already commented on a passage and you want to address and elaborate on the initial comment (beyond basic agreement), you should. Think about the kinds of things you might raise in a discussion and bring them up in the annotations. 
+For each week you contribute annotations, add at least four notes for a given day’s reading. A full contribution goes beyond agreeing with a point or asking a question. It will engage a point, connect it to other ideas we might learn from, amend it to suggest a more limited or wider scope, note conditions under which it is more or less relevant, suggest how it might inform your project or other work of which you are aware, ask a question *and provide an initial answer*. If others have already commented on a passage and you want to address and elaborate on their  comments (beyond basic agreement), you should. Think about the kinds of things you might raise in a discussion and bring them up in the annotations. 
 
 ### Individual Data/R Assignments, 20%
-In the first five weeks, individuals will complete assignments to become more comfortable using R (and to gain some exposure to elements of project 2 data sources). If you get stuck, feel free to ask for help on slack so that the learning can be shared. If you’re able to answer others' questions, you should; it’s a great chance to deepen your own understanding by explaining ideas.
+In the first five weeks, individuals will complete brief assignments to become more comfortable using R (and to gain some exposure to elements of project 2 data sources). If you get stuck, feel free to ask for help on slack so that the learning can be shared. If you’re able to answer others' questions, jump in; it’s a great chance to deepen your own understanding by explaining ideas.
 
 ### Collaborative Learning, 10% 
 Learning new things is tough. Supportive colleagues can make it easier. For this reason, you will be evaluated based on the extent to which you help each other learn through our in-class discussions, our team practice and opportunities for feedback, and our class slack.
@@ -79,26 +80,26 @@ Learning new things is tough. Supportive colleagues can make it easier. For this
 As team projects for the second half of the semester develop, each group will provide formal feedback in response to another group’s progress reports -- sharing ideas, making suggestions, identifying elements that need more clarification or thought, and proposing additional steps.
 
 ### Project 1: Stepping Stones Report, 20%
-In the first half of the class, we'll work in teams, dividing up the Stepping Stone report so that each team implements the work to extend and deepen the updated report. 
+In the first half of the class, we'll work in teams, dividing up the Stepping Stone report so that each team implements the work to update and deepen a section of the report. 
 
 Work will include
 
-* Weekly progress, 5%: Each team will take on responsibility for a different set of metrics within the report, building a workflow to download recent measures, do any necessary pre-processing of the measures, and append them to the historical data. In addition, each team will explore key changes in the relevant local or policy environment that help contextualize the data. Finally, teams will create an R markdown file to read in the updated measures, visualize them appropriately and with any contextual annotations uncovered, and provide brief narration of each metric (source, importance, changes, etc.). Weekly progress targets are outlined further in the [project pages.](../projects)
-* Final code submission, 10%: Each team will submit a readable, replicable, and extendable script for data aquisition and preparation and a final R markdown file that visualizes the measures you're responsible for, incorporating contextualization into the visuals where appropriate and providing additional narrative explanation.
-* Contribution memo, 2.5%: As part of the final submission, each member of a team will complete a contribution memo describing their own and their teammates contributions to the final project.
+* Weekly progress, 5%: Each team will take on responsibility for a different set of metrics within the report, building a workflow to download recent measures, do any necessary pre-processing of the measures, and append them to the historical data. In addition, each team will explore key changes in the relevant local or policy environment that help contextualize the data. Finally, teams will create an R markdown file to read in the updated measures, visualize them appropriately and incorporating important context, and provide brief narration of each metric (source, importance, changes, etc.). Weekly progress targets are outlined further in the [project pages.](../projects)
+* Final code submission, 12.5%: Each team will submit a readable, replicable, and extendable script for data acquisition and preparation and an R markdown file that visualizes the measures you're responsible for, incorporating contextualization into the visuals where appropriate, documenting the data sources, and providing additional narrative explanation.
+* [Contribution memo, 2.5%:](../contribution/) As part of the final submission, each member of a team will complete a contribution memo describing their own and their teammates contributions to the final project.
 
 ### Project 2: Multiple Equity Center Projects, 30%
-In the last half of the class, we’ll begin working in groups to complete data analysis and stories centered on selected questions. Once teams have been formed, I expect groups to meet each week between class to work together (via zoom, through chat in slack or a preferred platform). 
+In the last half of the class, we’ll begin working in new groups to complete data wrangling, visualization, and analysis to build data stories centered on selected questions. Once teams have been formed, I expect groups to meet each week between class to work together (via zoom, through chat in slack or a preferred platform). 
 
 Work will include
 
-* Weekly progress, 7.5%: Each team will take on responsibility for a different research question, exploring the relevant parts of the data set, setting up the data to address those questions, creating visuals and comparisons, identifying and annotating at least three pieces of literature (articles, reports, etc.) that informs your analysis, interpretation, or contextualization of the data. Groups will submit updates reporting on their progress and showing their work to date each week. Based on that progress, we’ll collectively determine the next steps. Though I have some weekly targets in mind (outlined in the [projects page](../projects)), applied research and data analysis doesn't always conform to planned timelines. In part, that’s what makes it exciting, but it will require some flexibility on all our parts.
+* Weekly progress, 7.5%: Each team will take on responsibility for a different research question, exploring the relevant parts of the data set, setting up the data to address those questions, creating visuals and comparisons, identifying and annotating literature (articles, reports, etc.) that informs your analysis, interpretation and contextualization of the data. Groups will submit updates reporting on their progress and showing their work each week. Based on that progress, we’ll collectively determine the next steps. Though I have some weekly targets in mind (outlined in the [projects page](../projects)), applied research and data analysis doesn't always conform to planned timelines. In part, that’s what makes it exciting, but it will require some flexibility on all our parts.
 * Analysis in an R markdown file, well-documented data wrangling code, and a final presentation, 20%: Each team will complete a report of their work as an R markdown and knitted html files suitable for inclusion the class webpage. This should, at a minimum, outline the key question they’ve been addressing and how the literature intersects with the questions, communicate their process and highlight concerns and caveats, and explain their findings in an a way accessible to a broader community. In addition, teams will submit a well-documented script that implements any pre-processing or data wrangling that precede the final analysis.
-* Contribution memo, 2.5%: As part of the final submission, each member of a team will complete a contribution memo describing their own and their teammates contributions to the final project.
+* [Contribution memo, 2.5%:](../contribution/) As part of the final submission, each member of a team will complete a contribution memo describing their own and their teammates contributions to the final project.
 
 
 ## Pre-Class Tasks
-Once you have read the syllabus and have R, RStudio, and the tidyverse set up on your computer ([instructions for installing R, RStudio, and all the tidyverse packages](../install/)) OR you have created an [Posit/RStudio Cloud Free account](https://rstudio.cloud/plans/free), email me at [mclaibourn@virginia.edu](mailto:mclaibourn@virginia.edu) with
+Once you have read the syllabus and have R, RStudio, and the tidyverse set up on your computer ([instructions for installing R, RStudio, and all the tidyverse packages](../install/)) OR you have created an [Posit/RStudio Cloud Free account](https://rstudio.cloud/plans/free) and installed the tidyverse packages, email me at [mclaibourn@virginia.edu](mailto:mclaibourn@virginia.edu) with
 
 1. Whichever answers below describe your prior relationship with R: 
     - It's one of my top 5 favorite letters

@@ -9,40 +9,52 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Project 1: Stepping Stones Report
 
-In the first half of the semester, while we're learning more about R, reproducible data workflows, and ethical data practices, we'll contribute to work for the City of Charlottesville to expand and enrich a community "Stepping Stones" report, a collection of 39 metrics to gauge well-being in Charlottesville and Albemarle. Working in teams, we'll divide up the metrics and build scripts to download updated measures, process them and combine them with the past data series, visualize and better contextualize changes over time. If we do our work well, it will make future iterations of this report easier to generate.
+In the first half of the semester, while learning more about R, reproducible data workflows, and ethical data practices, we began contributing to work for the City of Charlottesville to expand and enrich a community ["Stepping Stones" report](https://www.charlottesville.gov/1623/Stepping-Stones-Report), a collection of 39 metrics to gauge well-being in Charlottesville and Albemarle. Working in teams, we divided up the metrics and built scripts to download updated measures and validate prior data, process and prepare the data, visualize the trends, and better contextualize changes over time. All our code and the resulting data are available on a [GitHub repository](https://github.com/virginiaequitycenter/stepping-stones/); this will make future iterations of the report easier to generate and serves as a potential resource to expand to other localities.
 
-### Project Schedule
+Our work-to-date can be reviewed in the following team reports:
 
-* Week 1 (due midnight Jan 25): Individuals skim through the most recent Stepping Stones document and, on a shared project sheet, identify their top choices for the collection of measures they'd like to work on. We'll form into teams during class on Jan 26; each team is responsible for a collection of measures.
-* Week 2 (due by class Feb 2): Teams submit initial R script to download assigned measures. Separately, teams submit a 1-2 paragraphs identifying potential policy changes or contexts that might be relevant for assigned measures and warrant further investigation.
-* Week 3 (due by class Feb 9): Teams submit revised script to download assigned measures, due any needed processing, and bind them to the prior data series.
-* Week 4 (due by class Feb 16): Teams submit revised script to download measures, implement any needed procesing, bind them to the prior data series, and create initial visualizatons. Teams also submit 1-3 paragraph outlinign further details on any relevant policy changes or contexts. 
-* Week 5 (due by class Feb 23): Teams submit final version of script to download measures, implement any processing, and bind them to the prior data series. Teams submit initial R markdown file to read in the updated series, visualize them, and incorporate relevant changes or context. Teams will briefly share/show the knitted markdown file in class.
-* Week 6 (due by class Mar 2): Teams submit revised R markdown file to read in the updated series, visualize them, and incorporate relevant changes or context.
+* [Team 1 report](../projects/team1report.html): Math SOLs, High school degree attainment, School reports of physical violence, Students identified as economically disadvantaged, Children in foster care, Adults experiencing homelessness
+* [Team 2 report](../projects/team2report.html): Students with limited English, Homeowner burden, School reports of alcohol and drug offenses, Child abuse and neglect assessments/investigations, Mothers with access to prenatal care, Reading SOLs
+* [Team 4 report](../projects/team4report.html): On-time high school graduation rates, Children living with two parents, School suspensions, Children in need of supervision, Juvenile arrests for crimes against persons, Mothers with no or late access to prenatal care 
+* [Team 5 report](../projects/team5report.html): Children living below poverty, Per capita income, Youth labor force participation and unemployment, Kindergartners identified for reading intervention, School division average daily attendance, Births to mothers with less than a 12th grade education, Sexually transmitted infections in youth (awaiting data transfer) 
+* [Team 6 report](../projects/team6report.html): Divorce rate, Voter registration, Births to mothers with less than a 12th grade education, Rental burden, School reports of weapons possession, Juvenile delinquency judgments, Arrests for underage alcohol offenses
 
-**Once complete, we'll add all files to Equity Center GitHub and the html report files to the class webpage.** 
+The Equity Center at UVA will be continuing this work to compile the updated metrics into a single report in collaboration with the City's Department of Human Services.
 
 ## Project 2: Multiple Equity Center Projects
 
-In the second half of the semester, we'll divide up into new teams each working on a different project hosted by The Equity Center. These include projects centered on
+In the second half of the semester, we worked in teams on more open-ended projects that contribute to ongoing Equity Center efforts.
 
-* Eviction filings, based on Virginia Civil Court data
-* Police stops, based on the Virginia Community Policy Act data collection
-* Local rental markets, based on local tax assessment data
-* Humanizing data, expanding the Orange Dot report with household profiles using American Community Survey public-use microdata
-* A few others we're still sussing out
+### Police Stops
+As part of the [Determined series](https://www.cvilletomorrow.org/articles/determined-stories-of-resilience-in-a-broken-ecosystem/) from the summer of 2020, journalist Jordy Yager’s [Determined to be Free](https://www.cvilletomorrow.org/articles/determined-to-be-free/) examined the disparate impact of mass incarceration on the Black community locally. He had several years worth of Charlottesville police data on temporary detentions, collected by local attorney Jeff Fogel through multiple FOIA requests. To support this community story and provide a more accessible look at the data, we generated [a dashboard](https://virginiaequitycenter.github.io/cvilleequity_stopandfrisk/) that looked at the data from several angles: the who, where, and why of stop and frisk events. 
 
-### Project Schedule
+Since then, Virginia passed the [Community Policing Act](https://law.lis.virginia.gov/vacode/title52/chapter6.1/) which prohibits bias-based profiling and requires policing agencies to “collect data pertaining to (i) all investigatory motor vehicle stops, (ii) all stop-and-frisks of a person based on reasonable suspicion, and (iii) all other investigatory detentions that do not result in an arrest or the issuance of a summons to be reported into the Community Policing Reporting Database.”
 
-The timelines of these projects will vary more widely as the projects prgress, but a few key targets for all teams will include
+Beginning in July 2020, all law enforcement agencies were required to [collect data](https://law.lis.virginia.gov/vacode/title52/chapter6.1/section52-30.2/) “Each time a law-enforcement officer or State Police officer stops a driver of a motor vehicle, stops and frisks a person based on reasonable suspicion, or temporarily detains a person during any other investigatory stop.” The Department of State Police was required to maintain a [statewide database](https://data.virginia.gov/stories/s/Virginia-Community-Policing-Act-Data-Collection/rden-cz3h/) of these reports.
 
-* Week 1 (due by midnight Mar 15): Individuals read through the brief project scopes (TBA) and, on a shared project sheet, identify their top choices for projects they'd like to work on. We'll form into teams during class on Mar 16.
-* Week 2 (due by class Mar 23): Teams submit an initial R script to download, read in, and explore primary data. Teams submit an initial list of at least three relevant citations to review -- these might be research articles, think tank reports, book chapters, news articles, or something else.
-* Week 3 (due by class Mar 30): Teams submit revised script to begin wrangling data and continue data exploration. Teams submit brief reviews of previously suggested materials.
-* Week 4 (due by class Apr 6): Teams submit initial R markdown file to share for peer feedback, including description of question, of available data, explorations of processed data, narrative and ideas drawn from initial literature review, and anything else that makes sense at this time. Teams will pair up in class to present to one another and provide thoughtful feedback.
-* Week 5 (due by class Apr 13): Updates to data preparation scripts and analysis/presentation R markdown files. Teams submit a new list of at least three additional relevant citations to review.
-* Week 6 (due by class Apr 20): Updates to data preparation scripts and analysis/presentation R markdown files. Teams submit brief reviews of newly suggested materials.
-* Week 7 (due by class Apr 27): Updates to data preparation scripts and analysis/presentation R markdown files. Teams use R markdown files to present (almost) final work to class.
-* Week 8 (due by May 4, in lieu of a final): Teams submit final version of R script to download, process and wrangle data. Teams submit final R markdown and knitted html files to analyze, visualize, and interpret data.
+We began exploring and analyzing this data:
 
-**Once complete, we'll add all files to Equity Center GitHub and the html report files to the class webpage.** 
+* [Owayne Owens, Lily Slonim & Ramya Tella](../projects/Police_Stops_5.4.23.html)
+* [Charlie Bruce, Lekha Meheddy & Melinda Wong](https://melindajwong.shinyapps.io/community_policing_final/)
+
+### Attorney Fees in Evictions
+As part of a larger collaboration on housing justice, we’ve been working with a team at the [RVA Eviction Lab](https://rampages.us/rvaevictionlab/) to build data-informed tools for advocacy, including the [Virginia Evictors Catalog](https://virginiaequitycenter.shinyapps.io/va-evictors-catalog/). The overarching goal of the team is to create collaboratively-designed data tools to support community organizers, service providers, and policy advocates to address housing instability. 
+
+This work is informed by a community advisory committee with members from the Legal Aid Justice Center, Central Virginia Legal Aid Society, Richmond Tenants Union, Charlottesville’s Public Housing Association of Residents, Virginia Poverty Law Center, Virginia Community Voice, Piedmont Housing Alliance, Advocates for Richmond Youth, Charlottesville DSA, Housing Opportunities Made Equal of Virginia, and the Charlotteville Human Rights Commission. 
+
+A member of the advisory committee asked if we could look into changes in attorney fees in eviction cases. They've noticed some law firms representing landlords advising them to insert a clause into leases asserting that tenants agree that, in the event of an eviction case, 25% of the costs being sought will be deemed a reasonable attorney fee. Do we see any increases in attorney fees being awarded in eviction cases overall, or if changes are evident among cases where landlords are represented by specific firms?
+
+* [Jayla Hart and Fara Islam](../projects/Richmond-Eviction-Fees.html)
+* [Mary Katherine West and Vani Agarwal](../projects/CvilleRegion-Eviction-Fees.html)
+* [Katherine Driebe and Amruta Binoy](https://commpaslab.shinyapps.io/Eviction-Fees-App/)
+
+### Understanding the Local Rental Landscape 
+Most localities in Virginia do not require landlords renting property to register the property with a rental registry, making it challenging to describe the rental landscape.^[Short-term rental registries, on the other hand, which capture homes used for Airbnb style homestays, have become widespread. Some notable exceptions include [Fredericskburg](https://www.fredericksburgva.gov/304/Landlord-License) and [Fairfax](https://www.fairfaxva.gov/government/code-administration/property-maintenance/rental-properties).] Understanding the number, type, ownership, and quality of rental housing -- and its change over time -- would aid advocates for affordable housing.
+
+In addition to aiding localities in tracking the number of rental properties, ensuring safe living conditions, and maintaining contact information for maintenance or other issues, a list rental properties and their ownership would aid our ongoing Housing Justice work by, for instance, supporting the aligment of evictions with properties.
+
+In lieu of an authoritative list, we began exploring the use of open property and tax assessment data as a starting point for describing a local rental landscape, beginning with Charlottesville.
+
+* [Prior work, with  PhD Plus PostDoc 
+Hanna Charankevich](https://github.com/virginiaequitycenter/rental-database/blob/main/cville_rental_property_map.png)
+* [Connor Eads, Maria Morrissey, and Somin Lee](../projects/cville_rental_market.html)

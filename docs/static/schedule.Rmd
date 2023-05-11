@@ -14,8 +14,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## January 19 - Introductions
 
-Introductions to class, to each other, to data feminism, to projects, and to R. Bring a laptop with R and RStudio installed! [Instructions for installing R, RStudio, and all the tidyverse packages.](../install/)
-
+Introductions to class, to each other, to data feminism, to projects, and to R (phew!). Bring a laptop with R and RStudio installed! [Instructions for installing R, RStudio, and all the tidyverse packages.](../install/)
 
 *Key Reading*
 
@@ -40,35 +39,32 @@ Considering the power, purpose, provenance and processing of data.
 *Data Practice*
 
 * James Scott. 2021. *Data Science in R: A Gentle Introduction.* [Chapter 2](https://bookdown.org/jgscott/DSGI/lesson_data.html)
-* Rafael A. Irizarry. 2021. *Introduction to Data Science.* [Chapter 2](https://rafalab.github.io/dsbook/r-basics.html)
+* Hadley Wickham and Garrett Grolemund. 2017. *R for Data Science.* O’Reilly. [Chapter 5](https://r4ds.had.co.nz/transform.html)
 
 
 ## February 2 - Racialized Data, Data Wrangling
 
 *Key Reading*
 
-* Tukufu Zuberi. 2003. *Thicker than Blood.* University of Minnesota Press. Introduction: Racial Statistics, Chapter 3: Eugenics and the Birth of Racial Statistics.
+* Tukufu Zuberi. 2003. *Thicker than Blood.* University of Minnesota Press. [Introduction-Racial Statistics](https://www.jstor.org/stable/10.5749/j.cttttcnc.5), [Chapter 6-Challenging Race as a Variable](https://www.jstor.org/stable/10.5749/j.cttttcnc.14).
 * Tukufu Zuberi and Eduardo Bonilla-Silva. 2008. *White Logic, White Methods: Racism and Methodology.* Rowman & Littlefield. Chapter 7: Deracializing Social Statistics. 
 
 *Data Practice*
 
 * Rafael A. Irizarry. 2021. *Introduction to Data Science.* [Chapter 4](http://rafalab.dfci.harvard.edu/dsbook/tidyverse.html)
-* Hadley Wickham and Garrett Grolemund. 2017. *R for Data Science.* O’Reilly. [Chapter 5](https://r4ds.had.co.nz/transform.html)
-
+* Kyle Walker. 2022. Analyzing US Census Data: Methods, Maps, and Models in R. [Chapter 2](https://walker-data.com/census-r/an-introduction-to-tidycensus.html)
 
 ## February 9 - Gendering Data, Data Wrangling and Visualization
 
 *Key Reading*
 
-* Catherine D'Ignazio and Laura Klein. 2019. *Data Feminism.* MIT Press. [Chapter 4](https://data-feminism.mitpress.mit.edu/pub/h1w0nbqp/release/3)
-* Kevin Guyan. 2022. *Queer Data: Using Gender, Sex and Sexuality Data for Action.* Selection.
+* Kevin Guyan. 2022. *Queer Data: Using Gender, Sex and Sexuality Data for Action.* Introduction- Data and Difference, Chapter 5-Straightwashing: The cleaning and analysis of queer data.
 * Harper B. Keenan. 2022. ["Methodology as Pedagogy: Trans Lives, Social Science, and the Possibilities of Education Research."](https://doi.org/10.3102/0013189X211065740) *Educational Researcher* 51: 307–314. 
-
 
 *Data Practice*
 
 * James Scott. 2021. *Data Science in R: A Gentle Introduction.* [Chapter 4](https://bookdown.org/jgscott/DSGI/plots.html)
-* Hadley Wickham and Garrett Grolemund. 2017. *R for Data Science.* O’Reilly. [Chapter 5](https://r4ds.had.co.nz/transform.html)
+* Hadley Wickham and Garrett Grolemund. 2017. *R for Data Science.* O’Reilly. [Chapter 3](https://r4ds.had.co.nz/data-visualisation.html)
 
 
 ## February 16 - Relations in / to Data, Data Visualization
@@ -76,7 +72,7 @@ Considering the power, purpose, provenance and processing of data.
 *Key Reading*
 
 * Catherine D'Ignazio and Laura Klein. 2019. *Data Feminism.* MIT Press. [Chapter 3](https://data-feminism.mitpress.mit.edu/pub/5evfe9yd/release/5)
-* Abeba Birhane. 2021. "Algorithmic Injustice: A Relational Ethics Approach." *Patterns* 2(2). 
+* Abeba Birhane. 2021. ["Algorithmic Injustice: A Relational Ethics Approach."](https://www.sciencedirect.com/science/article/pii/S2666389921000155) *Patterns* 2(2). 
 
 *Data Pracice*
 
@@ -97,18 +93,7 @@ Considering the power, purpose, provenance and processing of data.
 * Hadley Wickham and Garrett Grolemund. 2017. *R for Data Science.* O’Reilly. [Chapter 28](https://r4ds.had.co.nz/graphics-for-communication.html)
 * Rafael A. Irizarry. 2021. *Introduction to Data Science.* [Chapter 11](http://rafalab.dfci.harvard.edu/dsbook/data-visualization-principles.html)
 
-
-## March 2 - Communicating Data, Data Wrangling
-
-*Key Reading*
-
-* Rebecca C. Hetey and Jennifer L. Eberhardt. 2018. "[The Numbers Don’t Speak for Themselves: Racial Disparities and the Persistence of Inequality in the Criminal Justice System.](https://doi.org/10.1177/0963721418763931)" *Current Directions in Psychological Science* 27: 183–187.
-* Allison L. Skinner-Dorkenoo, Apoorva Sarmal, Kasheena G. Rogbeer, Chloe J. Andr ́e, Bhumi Patea, Leah Cha. 2022. “[Highlighting COVID-19 Racial Disparities Can Reduce Support for Safety Precautions among White U.S. Residents.](https://www.sciencedirect.com/science/article/pii/S027795362200257X?via%3Dihub)” *Social Science & Medicine* 301: 1-8.
-
-*Data Practice*
-
-* Hadley Wickham and Garrett Grolemund. 2017. *R for Data Science.* O’Reilly. [Chapter 12](https://r4ds.had.co.nz/tidy-data.html), [Chapter 16](https://r4ds.had.co.nz/dates-and-times.html)
-* Rafael A. Irizarry. 2021. *Introduction to Data Science.* [Chapter 21](https://rafalab.github.io/dsbook/reshaping-data.html)
+## March 2 - Stepping Stones Wrap Up
 
 ## March 9 - Spring Break!
 
@@ -124,9 +109,8 @@ Considering the power, purpose, provenance and processing of data.
 
 *Data Practice*
 
-* Rafael A. Irizarry. 2021. *Introduction to Data Science.* [Chapter 22](https://rafalab.github.io/dsbook/joining-tables.html) 
-* Hadley Wickham and Garrett Grolemund. 2017. *R for Data Science.* O’Reilly. [Chapter 13](https://r4ds.had.co.nz/relational-data.html)
-* Kyle Walker. xxxx. [*tidycensus* package](https://walker-data.com/tidycensus/)
+* Rafael A. Irizarry. 2021. *Introduction to Data Science.* [Chapter 21](https://rafalab.github.io/dsbook/reshaping-data.html), [Chapter 22](https://rafalab.github.io/dsbook/joining-tables.html) 
+* Hadley Wickham and Garrett Grolemund. 2017. *R for Data Science.* O’Reilly. [Chapter 12](https://r4ds.had.co.nz/tidy-data.html), [Chapter 13](https://r4ds.had.co.nz/relational-data.html)
 
 
 ## March 23 - Data Practices, Data Tables
@@ -139,7 +123,7 @@ Considering the power, purpose, provenance and processing of data.
 *Data Practice*
 
 * David Keyes. 2019. [“How to Make Beautiful Tables in R.”](https://rfortherestofus.com/2019/11/how-to-make-beautiful-tables-in-r/) R for the Rest of Us.
-* Hadley Wickham and Garrett Grolemund. 2017. *R for Data Science.* O’Reilly. [Chapter 14](https://r4ds.had.co.nz/strings.html)
+* Hadley Wickham and Garrett Grolemund. 2017. *R for Data Science.* O’Reilly. [Chapter 14](https://r4ds.had.co.nz/strings.html), [Chapter 16](https://r4ds.had.co.nz/dates-and-times.html)
 
 
 ## March 30 - Countermapping, Spatial Data
@@ -163,7 +147,12 @@ Considering the power, purpose, provenance and processing of data.
 * Yihui Xie, J. J. Allaire, Garrett Grolemund. 2022. *R Markdown: The Definitive Guide.* [Chapter 3.1 - HTML Documents](https://bookdown.org/yihui/rmarkdown/html-document.html)
 
 
-## April 13 - Project Progress, Data Visualization
+## April 13 - Project Progress, Data Communication
+
+*Key Reading*
+
+* Rebecca C. Hetey and Jennifer L. Eberhardt. 2018. "[The Numbers Don’t Speak for Themselves: Racial Disparities and the Persistence of Inequality in the Criminal Justice System.](https://doi.org/10.1177/0963721418763931)" *Current Directions in Psychological Science* 27: 183–187.
+* Allison L. Skinner-Dorkenoo, Apoorva Sarmal, Kasheena G. Rogbeer, Chloe J. Andr ́e, Bhumi Patea, Leah Cha. 2022. “[Highlighting COVID-19 Racial Disparities Can Reduce Support for Safety Precautions among White U.S. Residents.](https://www.sciencedirect.com/science/article/pii/S027795362200257X?via%3Dihub)” *Social Science & Medicine* 301: 1-8.
 
 *Data Practice*
 

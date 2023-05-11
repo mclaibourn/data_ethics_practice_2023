@@ -18,6 +18,15 @@
     </item>
     
     <item>
+      <title>Contribution Memo</title>
+      <link>https://pidep23.mclaibourn.org/static/contribution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pidep23.mclaibourn.org/static/contribution/</guid>
+      <description>Working with others is both rewarding and challenging and it’s valuable to spend some time reflecting on the strengths and difficulties of our collaborative efforts.</description>
+    </item>
+    
+    <item>
       <title>Getting Started</title>
       <link>https://pidep23.mclaibourn.org/static/install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -32,7 +41,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://pidep23.mclaibourn.org/static/projects/</guid>
-      <description>Project 1: Stepping Stones Report In the first half of the semester, while we’re learning more about R, reproducible data workflows, and ethical data practices, we’ll contribute to work for the City of Charlottesville to expand and enrich a community “Stepping Stones” report, a collection of 39 metrics to gauge well-being in Charlottesville and Albemarle.</description>
+      <description>Project 1: Stepping Stones Report In the first half of the semester, while learning more about R, reproducible data workflows, and ethical data practices, we began contributing to work for the City of Charlottesville to expand and enrich a community “Stepping Stones” report, a collection of 39 metrics to gauge well-being in Charlottesville and Albemarle.</description>
     </item>
     
     <item>
@@ -51,7 +60,7 @@ Getting Started with R Instructions for installing R, RStudio, and all the tidyv
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://pidep23.mclaibourn.org/static/schedule/</guid>
-      <description>Week Reading Materials What&#39;s Due? Jan 19 Introductions Jan 26 Data as Power, Data Wrangling Feb 2 Racialized Data, Data Wrangling Feb 9 Gendering Data, Data Wrangling and Visualization Feb 16 Relations in/to Data, Data Visualization Feb 23 Data and Harm, Data Visualization Mar 2 Communicating Data, Data Wrangling Mar 16 Data Processes, Data Wrangling Mar 23 Data Practices, Data Tables Mar 30 Countermapping, Spatial Data Apr 6 Project Peer Review, R Markdown Apr 13 Project Progress, Data Visualization Apr 20 Project Progress, Data Visualization Apr 27 Project Presentations January 19 - Introductions Introductions to class, to each other, to data feminism, to projects, and to R.</description>
+      <description>Week Reading Materials What&#39;s Due? Jan 19 Introductions R Notes First Assignment Jan 26 Data as Power, Data Wrangling R Notes Assignment 2 Feb 2 Racialized Data, Data Wrangling R Notes 3rd Assignment Feb 9 Gendering Data, Data Wrangling and Visualization R Notes Assignment IV Feb 16 Relations in/to Data, Data Visualization R Notes Assignment E Feb 23 Data and Harm, Data Visualization Final Pre-Break Assignment Mar 2 Stepping Stones Wrap Up Post-Break Assignment Mar 16 Data Processes, Data Wrangling Mar 23 Data Practices, Data Tables R Notes Project Exploration, 3 Resources Mar 30 Countermapping, Spatial Data Project progress, Resource review Apr 6 Project Peer Review, R Markdown R Markdown for peer review Apr 13 Project Progress, Data Communication Project progress, 3 resources Apr 20 Project Progress, Data Visualization Project progress, Resource review Apr 27 Project Presentations R Markdown for presentation January 19 - Introductions Introductions to class, to each other, to data feminism, to projects, and to R (phew!</description>
     </item>
     
     <item>
@@ -60,7 +69,7 @@ Getting Started with R Instructions for installing R, RStudio, and all the tidyv
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://pidep23.mclaibourn.org/static/syllabus/</guid>
-      <description>Overview and Goals Spring 20223 Projects Project 1: Stepping Stones Report Project 2: Multiple Equity Center Projects How We’ll Work R, RStudio Materials Getting Help and the Class Slack How We’ll Evaluate Our Work Reading Annotations, 20% Individual Data/R Assignments, 20% Collaborative Learning, 10% Project 1: Stepping Stones Report, 20% Project 2: Multiple Equity Center Projects, 30% Pre-Class Tasks Overview and Goals This course is intended to provide students experience with data science within a framework of data ethics in service of equity-oriented public policy.</description>
+      <description>Overview and Goals Spring 2023 Projects Project 1: Stepping Stones Report Project 2: Multiple Equity Center Projects How We’ll Work R, RStudio Materials Getting Help and the Class Slack How We’ll Evaluate Our Work Reading Annotations, 20% Individual Data/R Assignments, 20% Collaborative Learning, 10% Project 1: Stepping Stones Report, 20% Project 2: Multiple Equity Center Projects, 30% Pre-Class Tasks Overview and Goals This course is intended to provide students experience with data science within a framework of data ethics in service of equity-oriented public policy.</description>
     </item>
     
   </channel>
